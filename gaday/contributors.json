@@ -1,2042 +1,1252 @@
 {
   "queenypingcap": {
-    "username": "queenypingcap",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/19528243?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 51
-      }],
-      "docs-cn": [{
-        "contributions": 36
-      }],
-      "tidb": [{
-        "contributions": 1
-      }],
-      "tikv": [{
-        "contributions": 8
-      }]
+      "docs": 4,
+      "docs-cn": 4,
+      "tidb": 1,
+      "tikv": 3
     }
   },
   "shenli": {
-    "username": "shenli",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/1192573?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 34
-      }],
-      "docs-cn": [{
-        "contributions": 74
-      }],
-      "tidb": [{
-        "contributions": 778
-      }],
-      "tikv": [{
-        "contributions": 7
-      }],
-      "pd": [{
-        "contributions": 4
-      }]
+      "docs": 4,
+      "docs-cn": 4,
+      "tidb": 4,
+      "tikv": 3,
+      "pd": 3
     }
   },
   "siddontang": {
-    "username": "siddontang",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/1080370?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 33
-      }],
-      "docs-cn": [{
-        "contributions": 17
-      }],
-      "tidb": [{
-        "contributions": 583
-      }],
-      "tikv": [{
-        "contributions": 634
-      }],
-      "pd": [{
-        "contributions": 159
-      }]
+      "docs": 4,
+      "docs-cn": 4,
+      "tidb": 4,
+      "tikv": 4,
+      "pd": 4
     }
   },
   "lilin90": {
-    "username": "lilin90",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/30922556?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 24
-      }],
-      "docs-cn": [{
-        "contributions": 21
-      }]
+      "docs": 4,
+      "docs-cn": 4
     }
   },
   "Wenting0905": {
-    "username": "Wenting0905",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/26076710?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 13
-      }],
-      "docs-cn": [{
-        "contributions": 1
-      }]
+      "docs": 3,
+      "docs-cn": 1
     }
   },
   "huachaohuang": {
-    "username": "huachaohuang",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/7806468?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 8
-      }],
-      "docs-cn": [{
-        "contributions": 22
-      }],
-      "tidb": [{
-        "contributions": 18
-      }],
-      "tikv": [{
-        "contributions": 52
-      }],
-      "pd": [{
-        "contributions": 105
-      }]
+      "docs": 3,
+      "docs-cn": 4,
+      "tidb": 4,
+      "tikv": 4,
+      "pd": 4
     }
   },
   "iamxy": {
-    "username": "iamxy",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/3624895?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 6
-      }],
-      "docs-cn": [{
-        "contributions": 6
-      }],
-      "tidb": [{
-        "contributions": 10
-      }],
-      "tikv": [{
-        "contributions": 7
-      }],
-      "pd": [{
-        "contributions": 3
-      }]
+      "docs": 3,
+      "docs-cn": 3,
+      "tidb": 3,
+      "tikv": 3,
+      "pd": 3
     }
   },
   "nolouch": {
-    "username": "nolouch",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/6428910?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 4
-      }],
-      "docs-cn": [{
-        "contributions": 5
-      }],
-      "tidb": [{
-        "contributions": 13
-      }],
-      "tikv": [{
-        "contributions": 5
-      }],
-      "pd": [{
-        "contributions": 57
-      }]
+      "docs": 3,
+      "docs-cn": 3,
+      "tidb": 3,
+      "tikv": 3,
+      "pd": 4
     }
   },
   "andelf": {
-    "username": "andelf",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/72891?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 4
-      }],
-      "docs-cn": [{
-        "contributions": 27
-      }],
-      "tidb": [{
-        "contributions": 7
-      }],
-      "tikv": [{
-        "contributions": 12
-      }],
-      "pd": [{
-        "contributions": 8
-      }]
+      "docs": 3,
+      "docs-cn": 4,
+      "tidb": 3,
+      "tikv": 3,
+      "pd": 3
     }
   },
   "qiuyesuifeng": {
-    "username": "qiuyesuifeng",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/1953644?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 4
-      }],
-      "docs-cn": [{
-        "contributions": 2
-      }],
-      "tidb": [{
-        "contributions": 370
-      }],
-      "tikv": [{
-        "contributions": 4
-      }],
-      "pd": [{
-        "contributions": 98
-      }]
+      "docs": 3,
+      "docs-cn": 2,
+      "tidb": 4,
+      "tikv": 3,
+      "pd": 4
     }
   },
   "ngaut": {
-    "username": "ngaut",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/878009?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 4
-      }],
-      "docs-cn": [{
-        "contributions": 27
-      }],
-      "tidb": [{
-        "contributions": 346
-      }],
-      "tikv": [{
-        "contributions": 306
-      }],
-      "pd": [{
-        "contributions": 27
-      }]
+      "docs": 3,
+      "docs-cn": 4,
+      "tidb": 4,
+      "tikv": 4,
+      "pd": 4
     }
   },
   "xuechunL": {
-    "username": "xuechunL",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/11324004?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 4
-      }],
-      "docs-cn": [{
-        "contributions": 7
-      }]
+      "docs": 3,
+      "docs-cn": 3
     }
   },
   "overvenus": {
-    "username": "overvenus",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/2150711?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 4
-      }],
-      "docs-cn": [{
-        "contributions": 4
-      }],
-      "tidb": [{
-        "contributions": 8
-      }],
-      "tikv": [{
-        "contributions": 103
-      }],
-      "pd": [{
-        "contributions": 56
-      }]
+      "docs": 3,
+      "docs-cn": 3,
+      "tidb": 3,
+      "tikv": 4,
+      "pd": 4
     }
   },
   "XuHuaiyu": {
-    "username": "XuHuaiyu",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/9039012?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 3
-      }],
-      "docs-cn": [{
-        "contributions": 16
-      }],
-      "tidb": [{
-        "contributions": 139
-      }]
+      "docs": 3,
+      "docs-cn": 4,
+      "tidb": 4
     }
   },
   "LinuxGit": {
-    "username": "LinuxGit",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/1552622?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 3
-      }],
-      "docs-cn": [{
-        "contributions": 11
-      }]
+      "docs": 3,
+      "docs-cn": 3
     }
   },
   "buggithubs": {
-    "username": "buggithubs",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/11624213?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 3
-      }],
-      "docs-cn": [{
-        "contributions": 65
-      }]
+      "docs": 3,
+      "docs-cn": 4
     }
   },
   "c4pt0r": {
-    "username": "c4pt0r",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/773853?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 3
-      }],
-      "docs-cn": [{
-        "contributions": 11
-      }],
-      "tidb": [{
-        "contributions": 107
-      }],
-      "tikv": [{
-        "contributions": 8
-      }],
-      "pd": [{
-        "contributions": 13
-      }]
+      "docs": 3,
+      "docs-cn": 3,
+      "tidb": 4,
+      "tikv": 3,
+      "pd": 3
     }
   },
   "tiancaiamao": {
-    "username": "tiancaiamao",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/1420062?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 3
-      }],
-      "docs-cn": [{
-        "contributions": 20
-      }],
-      "tidb": [{
-        "contributions": 276
-      }],
-      "tikv": [{
-        "contributions": 30
-      }],
-      "pd": [{
-        "contributions": 7
-      }]
+      "docs": 3,
+      "docs-cn": 4,
+      "tidb": 4,
+      "tikv": 4,
+      "pd": 3
     }
   },
   "GregoryIan": {
-    "username": "GregoryIan",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/10701973?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 2
-      }],
-      "docs-cn": [{
-        "contributions": 10
-      }],
-      "tidb": [{
-        "contributions": 2
-      }],
-      "pd": [{
-        "contributions": 1
-      }]
+      "docs": 2,
+      "docs-cn": 3,
+      "tidb": 2,
+      "pd": 1
     }
   },
   "zimulala": {
-    "username": "zimulala",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/4242506?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 2
-      }],
-      "docs-cn": [{
-        "contributions": 23
-      }],
-      "tidb": [{
-        "contributions": 593
-      }],
-      "pd": [{
-        "contributions": 5
-      }]
+      "docs": 2,
+      "docs-cn": 4,
+      "tidb": 4,
+      "pd": 3
     }
   },
   "disksing": {
-    "username": "disksing",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/12077877?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 2
-      }],
-      "docs-cn": [{
-        "contributions": 7
-      }],
-      "tidb": [{
-        "contributions": 250
-      }],
-      "tikv": [{
-        "contributions": 255
-      }],
-      "pd": [{
-        "contributions": 111
-      }]
+      "docs": 2,
+      "docs-cn": 3,
+      "tidb": 4,
+      "tikv": 4,
+      "pd": 4
     }
   },
   "gaoyangxiaozhu": {
-    "username": "gaoyangxiaozhu",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/9858245?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 2
-      }],
-      "docs-cn": [{
-        "contributions": 2
-      }]
+      "docs": 2,
+      "docs-cn": 2
     }
   },
   "acs-ferreira": {
-    "username": "acs-ferreira",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/12234510?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 1
-      }]
+      "docs": 1
     }
   },
   "choleraehyq": {
-    "username": "choleraehyq",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/8923413?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 1
-      }]
+      "docs": 1
     }
   },
   "holys": {
-    "username": "holys",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/1198913?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 1
-      }],
-      "docs-cn": [{
-        "contributions": 5
-      }],
-      "tidb": [{
-        "contributions": 5
-      }]
+      "docs": 1,
+      "docs-cn": 3,
+      "tidb": 3
     }
   },
   "hanfei1991": {
-    "username": "hanfei1991",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/20884546?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 1
-      }],
-      "docs-cn": [{
-        "contributions": 6
-      }],
-      "tidb": [{
-        "contributions": 434
-      }],
-      "tikv": [{
-        "contributions": 2
-      }]
+      "docs": 1,
+      "docs-cn": 3,
+      "tidb": 4,
+      "tikv": 2
     }
   },
   "yuanwhy": {
-    "username": "yuanwhy",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/4101682?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 1
-      }],
-      "docs-cn": [{
-        "contributions": 1
-      }],
-      "tidb": [{
-        "contributions": 7
-      }]
+      "docs": 1,
+      "docs-cn": 1,
+      "tidb": 3
     }
   },
   "BusyJay": {
-    "username": "BusyJay",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/1701473?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 1
-      }],
-      "tidb": [{
-        "contributions": 3
-      }],
-      "tikv": [{
-        "contributions": 598
-      }]
+      "docs": 1,
+      "tidb": 3,
+      "tikv": 4
     }
   },
   "zz-jason": {
-    "username": "zz-jason",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/5268763?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 1
-      }],
-      "docs-cn": [{
-        "contributions": 3
-      }],
-      "tidb": [{
-        "contributions": 100
-      }]
+      "docs": 1,
+      "docs-cn": 3,
+      "tidb": 4
     }
   },
   "blacktear23": {
-    "username": "blacktear23",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/209576?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 1
-      }],
-      "tidb": [{
-        "contributions": 1
-      }],
-      "pd": [{
-        "contributions": 2
-      }]
+      "docs": 1,
+      "tidb": 1,
+      "pd": 2
     }
   },
   "javaforfun": {
-    "username": "javaforfun",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/1227701?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 1
-      }],
-      "docs-cn": [{
-        "contributions": 4
-      }],
-      "tikv": [{
-        "contributions": 14
-      }]
+      "docs": 1,
+      "docs-cn": 3,
+      "tikv": 3
     }
   },
   "sjmudd": {
-    "username": "sjmudd",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/116250?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 1
-      }]
+      "docs": 1
     }
   },
   "breeswish": {
-    "username": "breeswish",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/1916485?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 1
-      }],
-      "docs-cn": [{
-        "contributions": 3
-      }],
-      "tidb": [{
-        "contributions": 37
-      }]
+      "docs": 1,
+      "docs-cn": 3,
+      "tidb": 4
     }
   },
   "louishust": {
-    "username": "louishust",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/3975139?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 1
-      }],
-      "tidb": [{
-        "contributions": 13
-      }]
+      "docs": 1,
+      "tidb": 3
     }
   },
   "wolfstudy": {
-    "username": "wolfstudy",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/20965307?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 1
-      }],
-      "tispark": [{
-        "contributions": 1
-      }]
+      "docs": 1,
+      "tispark": 1
     }
   },
   "tennix": {
-    "username": "tennix",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/7932127?v=4",
     "repos": {
-      "docs": [{
-        "contributions": 1
-      }],
-      "tidb": [{
-        "contributions": 1
-      }],
-      "tikv": [{
-        "contributions": 2
-      }],
-      "pd": [{
-        "contributions": 2
-      }]
+      "docs": 1,
+      "tidb": 1,
+      "tikv": 2,
+      "pd": 2
     }
   },
   "sunhao2017": {
-    "username": "sunhao2017",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/29201653?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 41
-      }]
+      "docs-cn": 4
     }
   },
   "coocood": {
-    "username": "coocood",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/891222?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 10
-      }],
-      "tidb": [{
-        "contributions": 843
-      }],
-      "tikv": [{
-        "contributions": 2
-      }],
-      "pd": [{
-        "contributions": 2
-      }]
+      "docs-cn": 3,
+      "tidb": 4,
+      "tikv": 2,
+      "pd": 2
     }
   },
   "liubo0127": {
-    "username": "liubo0127",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/28344969?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 10
-      }]
+      "docs-cn": 3
     }
   },
   "winkyao": {
-    "username": "winkyao",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/6949944?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 10
-      }],
-      "tidb": [{
-        "contributions": 28
-      }]
+      "docs-cn": 3,
+      "tidb": 4
     }
   },
   "meyu44": {
-    "username": "meyu44",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/29556206?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 8
-      }]
+      "docs-cn": 3
     }
   },
   "zhangjinpeng1987": {
-    "username": "zhangjinpeng1987",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/19700528?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 7
-      }],
-      "tidb": [{
-        "contributions": 4
-      }],
-      "tikv": [{
-        "contributions": 114
-      }],
-      "pd": [{
-        "contributions": 2
-      }]
-    }
-  },
-  "lamxTyler": {
-    "username": "lamxTyler",
-    "avatar": "",
-    "repos": {
-      "docs-cn": [{
-        "contributions": 6
-      }],
-      "tidb": [{
-        "contributions": 53
-      }]
-    }
-  },
-  "winoros": {
-    "username": "winoros",
-    "avatar": "",
-    "repos": {
-      "docs-cn": [{
-        "contributions": 5
-      }],
-      "tidb": [{
-        "contributions": 17
-      }],
-      "tikv": [{
-        "contributions": 1
-      }]
+      "docs-cn": 3,
+      "tidb": 3,
+      "tikv": 4,
+      "pd": 2
     }
   },
   "hicqu": {
-    "username": "hicqu",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/8407317?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 5
-      }],
-      "tidb": [{
-        "contributions": 51
-      }],
-      "tikv": [{
-        "contributions": 15
-      }]
+      "docs-cn": 3,
+      "tidb": 4,
+      "tikv": 3
+    }
+  },
+  "lamxTyler": {
+    "avatar": "https://avatars1.githubusercontent.com/u/16222711?v=4",
+    "repos": {
+      "docs-cn": 3,
+      "tidb": 4
+    }
+  },
+  "winoros": {
+    "avatar": "https://avatars1.githubusercontent.com/u/7846227?v=4",
+    "repos": {
+      "docs-cn": 3,
+      "tidb": 4,
+      "tikv": 1
+    }
+  },
+  "tshqin": {
+    "avatar": "https://avatars2.githubusercontent.com/u/31055752?v=4",
+    "repos": {
+      "docs-cn": 2
     }
   },
   "weekface": {
-    "username": "weekface",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/9758?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 2
-      }],
-      "tidb": [{
-        "contributions": 1
-      }]
+      "docs-cn": 2,
+      "tidb": 1
     }
   },
   "skimmilk6877": {
-    "username": "skimmilk6877",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/9862730?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 2
-      }]
+      "docs-cn": 2
     }
   },
   "liubin": {
-    "username": "liubin",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/1212008?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 1
-      }],
-      "tidb": [{
-        "contributions": 2
-      }]
+      "docs-cn": 1,
+      "tidb": 2
     }
   },
   "jackysp": {
-    "username": "jackysp",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/4352397?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 1
-      }],
-      "tidb": [{
-        "contributions": 22
-      }]
+      "docs-cn": 1,
+      "tidb": 4
     }
   },
   "thinxer": {
-    "username": "thinxer",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/66073?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 1
-      }]
+      "docs-cn": 1
     }
   },
   "innerr": {
-    "username": "innerr",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/1285390?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 1
-      }]
+      "docs-cn": 1
     }
   },
   "iamzhout": {
-    "username": "iamzhout",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/14846203?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 1
-      }],
-      "pd": [{
-        "contributions": 1
-      }]
+      "docs-cn": 1,
+      "pd": 1
     }
   },
   "wentaoxu": {
-    "username": "wentaoxu",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/30992981?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 1
-      }],
-      "tidb": [{
-        "contributions": 1
-      }]
+      "docs-cn": 1,
+      "tidb": 1
     }
   },
   "hashbone": {
-    "username": "hashbone",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/30997633?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 1
-      }]
+      "docs-cn": 1
     }
   },
   "bobotu": {
-    "username": "bobotu",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/15031522?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 1
-      }],
-      "tidb": [{
-        "contributions": 10
-      }]
+      "docs-cn": 1,
+      "tidb": 3
     }
   },
   "eBoyy": {
-    "username": "eBoyy",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/4508623?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 1
-      }]
+      "docs-cn": 1
     }
   },
   "qgxiaozhan": {
-    "username": "qgxiaozhan",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/19374412?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 1
-      }]
+      "docs-cn": 1
     }
   },
   "wenfengwang": {
-    "username": "wenfengwang",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/9766821?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 1
-      }]
+      "docs-cn": 1
     }
   },
   "zhengwanbo": {
-    "username": "zhengwanbo",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/22363047?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 1
-      }]
+      "docs-cn": 1
     }
   },
   "zhzy0077": {
-    "username": "zhzy0077",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/8717471?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 1
-      }]
+      "docs-cn": 1
     }
   },
   "wangyanjun": {
-    "username": "wangyanjun",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/2359232?v=4",
     "repos": {
-      "docs-cn": [{
-        "contributions": 1
-      }]
+      "docs-cn": 1
     }
   },
   "zxylvlp": {
-    "username": "zxylvlp",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/7372696?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 49
-      }]
+      "tidb": 4
     }
   },
   "spongedu": {
-    "username": "spongedu",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/4725158?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 33
-      }]
+      "tidb": 4
     }
   },
   "AndreMouche": {
-    "username": "AndreMouche",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/1085697?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 19
-      }],
-      "tikv": [{
-        "contributions": 81
-      }]
+      "tidb": 4,
+      "tikv": 4
     }
   },
   "hhkbp2": {
-    "username": "hhkbp2",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/1933824?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 17
-      }],
-      "tikv": [{
-        "contributions": 55
-      }]
+      "tidb": 4,
+      "tikv": 4
     }
   },
   "yanzhe-chen": {
-    "username": "yanzhe-chen",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/4158637?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 17
-      }]
+      "tidb": 4
     }
   },
   "nieyy": {
-    "username": "nieyy",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/13518782?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 14
-      }]
+      "tidb": 3
     }
   },
   "zyguan": {
-    "username": "zyguan",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/6850317?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 13
-      }]
+      "tidb": 3
     }
   },
   "SteveZhangBit": {
-    "username": "SteveZhangBit",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/6336733?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 11
-      }]
+      "tidb": 3
     }
   },
   "stdupp": {
-    "username": "stdupp",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/6189788?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 10
-      }]
+      "tidb": 3
     }
   },
   "netroby": {
-    "username": "netroby",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/278153?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 10
-      }]
+      "tidb": 3
     }
   },
   "morefreeze": {
-    "username": "morefreeze",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/1477233?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 10
-      }],
-      "tikv": [{
-        "contributions": 84
-      }]
+      "tidb": 3,
+      "tikv": 4
     }
   },
   "cznic": {
-    "username": "cznic",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/729580?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 9
-      }]
+      "tidb": 3
     }
   },
   "astaxie": {
-    "username": "astaxie",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/233907?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 9
-      }]
+      "tidb": 3
     }
   },
   "hawkingrei": {
-    "username": "hawkingrei",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/3427324?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 8
-      }]
+      "tidb": 3
     }
   },
   "CodeRushing": {
-    "username": "CodeRushing",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/3175223?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 7
-      }]
+      "tidb": 3
     }
   },
   "xwb1989": {
-    "username": "xwb1989",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/1270701?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 7
-      }]
+      "tidb": 3
     }
   },
   "lkk2003rty": {
-    "username": "lkk2003rty",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/3778295?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 7
-      }]
+      "tidb": 3
     }
   },
   "sllt": {
-    "username": "sllt",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/2277690?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 7
-      }]
+      "tidb": 3
     }
   },
   "mccxj": {
-    "username": "mccxj",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/98360?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 7
-      }]
+      "tidb": 3
     }
   },
   "wgliang": {
-    "username": "wgliang",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/8739301?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 6
-      }],
-      "pd": [{
-        "contributions": 2
-      }]
+      "tidb": 3,
+      "pd": 2
     }
   },
   "Unknwon": {
-    "username": "Unknwon",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/2946214?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 6
-      }]
+      "tidb": 3
     }
   },
   "gaocegege": {
-    "username": "gaocegege",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/5100735?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 5
-      }]
+      "tidb": 3
     }
   },
   "cosmtrek": {
-    "username": "cosmtrek",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/8832222?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 5
-      }],
-      "tikv": [{
-        "contributions": 1
-      }]
+      "tidb": 3,
+      "tikv": 1
     }
   },
   "ilovesoup": {
-    "username": "ilovesoup",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/3347719?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 5
-      }],
-      "tispark": [{
-        "contributions": 23
-      }]
+      "tidb": 3,
+      "tispark": 4
     }
   },
   "idlesummerbreeze": {
-    "username": "idlesummerbreeze",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/12642547?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 5
-      }]
+      "tidb": 3
     }
   },
   "insionng": {
-    "username": "insionng",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/2784837?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 5
-      }]
+      "tidb": 3
     }
   },
   "mxlxm": {
-    "username": "mxlxm",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/1845326?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 5
-      }]
+      "tidb": 3
     }
   },
   "c-wind": {
-    "username": "c-wind",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/4023294?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 5
-      }]
+      "tidb": 3
     }
   },
   "silentred": {
-    "username": "silentred",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/3345293?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 4
-      }]
+      "tidb": 3
     }
   },
   "dawxy": {
-    "username": "dawxy",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/11092308?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 4
-      }]
+      "tidb": 3
     }
   },
   "steffengy": {
-    "username": "steffengy",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/1194855?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 4
-      }]
+      "tidb": 3
     }
   },
   "liangjiaxing": {
-    "username": "liangjiaxing",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/5413760?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 3
-      }]
+      "tidb": 3
     }
   },
   "Tratar": {
-    "username": "Tratar",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/1386888?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 3
-      }]
+      "tidb": 3
     }
   },
   "wusphinx": {
-    "username": "wusphinx",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/1380777?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 3
-      }]
+      "tidb": 3
     }
   },
   "0x04C2": {
-    "username": "0x04C2",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/17510957?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 3
-      }]
+      "tidb": 3
     }
   },
   "ariesdevil": {
-    "username": "ariesdevil",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/7812909?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 3
-      }],
-      "tikv": [{
-        "contributions": 1
-      }]
+      "tidb": 3,
+      "tikv": 1
     }
   },
   "ladrift": {
-    "username": "ladrift",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/11425102?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 3
-      }]
+      "tidb": 3
     }
   },
   "zhangcoldwater": {
-    "username": "zhangcoldwater",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/7858264?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 3
-      }]
+      "tidb": 3
     }
   },
   "fuxiaohei": {
-    "username": "fuxiaohei",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/2142787?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 3
-      }]
+      "tidb": 3
     }
   },
   "plutolove": {
-    "username": "plutolove",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/8512477?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 3
-      }]
+      "tidb": 3
     }
   },
   "qhsong": {
-    "username": "qhsong",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/6668939?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 3
-      }]
+      "tidb": 3
     }
   },
   "roger-lijian": {
-    "username": "roger-lijian",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/15354148?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 3
-      }]
+      "tidb": 3
     }
   },
   "yangwenmai": {
-    "username": "yangwenmai",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/1710912?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 3
-      }]
+      "tidb": 3
     }
   },
   "AkihiroSuda": {
-    "username": "AkihiroSuda",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/9248427?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }],
-      "tikv": [{
-        "contributions": 1
-      }],
-      "pd": [{
-        "contributions": 1
-      }]
+      "tidb": 2,
+      "tikv": 1,
+      "pd": 1
     }
   },
   "arthuryangcs": {
-    "username": "arthuryangcs",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/6555533?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }]
+      "tidb": 2
     }
   },
   "hnakamur": {
-    "username": "hnakamur",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/19299?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }]
+      "tidb": 2
     }
   },
   "hzmangel": {
-    "username": "hzmangel",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/34920?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }]
+      "tidb": 2
     }
   },
   "hsqlu": {
-    "username": "hsqlu",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/1534956?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }]
+      "tidb": 2
     }
   },
   "Alienero": {
-    "username": "Alienero",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/5100733?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }]
+      "tidb": 2
     }
   },
   "alston111111": {
-    "username": "alston111111",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/7358378?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }]
+      "tidb": 2
     }
   },
   "atmzhou": {
-    "username": "atmzhou",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/8384101?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }]
+      "tidb": 2
     }
   },
   "cuiyuan": {
-    "username": "cuiyuan",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/5691442?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }]
+      "tidb": 2
     }
   },
   "dreamquster": {
-    "username": "dreamquster",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/4962716?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }]
+      "tidb": 2
     }
   },
   "fudali113": {
-    "username": "fudali113",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/16189465?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }]
+      "tidb": 2
     }
   },
   "knarfeh": {
-    "username": "knarfeh",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/6964284?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }]
+      "tidb": 2
     }
   },
   "silenceper": {
-    "username": "silenceper",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/2044558?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }]
+      "tidb": 2
     }
   },
   "woodpenker": {
-    "username": "woodpenker",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/7452124?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }]
+      "tidb": 2
     }
   },
   "sempr": {
-    "username": "sempr",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/760120?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }]
+      "tidb": 2
     }
   },
   "foobar": {
-    "username": "foobar",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/5953?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 2
-      }]
+      "tidb": 2
     }
   },
   "8cbx": {
-    "username": "8cbx",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/1950525?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "hamo": {
-    "username": "hamo",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/94987?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "kiroInn": {
-    "username": "kiroInn",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/15043493?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "chuchao333": {
-    "username": "chuchao333",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/1049022?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "colelawrence": {
-    "username": "colelawrence",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/2925395?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "dantin": {
-    "username": "dantin",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/728886?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }],
-      "pd": [{
-        "contributions": 5
-      }]
+      "tidb": 1,
+      "pd": 3
     }
   },
   "xiaods": {
-    "username": "xiaods",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/37678?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "tangdi": {
-    "username": "tangdi",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/6425744?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "JackDrogon": {
-    "username": "JackDrogon",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/3295714?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "gelstudios": {
-    "username": "gelstudios",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/530111?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "guilhermehubner": {
-    "username": "guilhermehubner",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/5081283?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "ming-relax": {
-    "username": "ming-relax",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/7576663?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }],
-      "pd": [{
-        "contributions": 1
-      }]
+      "tidb": 1,
+      "pd": 1
     }
   },
   "mrmiywj": {
-    "username": "mrmiywj",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/7459820?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }],
-      "tikv": [{
-        "contributions": 6
-      }]
+      "tidb": 1,
+      "tikv": 3
     }
   },
   "shuhuai007": {
-    "username": "shuhuai007",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/1732566?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "kwo": {
-    "username": "kwo",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/250985?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "EndlessIdea": {
-    "username": "EndlessIdea",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/1527796?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "liyu4": {
-    "username": "liyu4",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/5621417?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "Librazy": {
-    "username": "Librazy",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/2211542?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }],
-      "tikv": [{
-        "contributions": 1
-      }],
-      "pd": [{
-        "contributions": 1
-      }]
+      "tidb": 1,
+      "tikv": 1,
+      "pd": 1
     }
   },
   "myrice": {
-    "username": "myrice",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/7403192?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "ts25504": {
-    "username": "ts25504",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/5451790?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "simon-xia": {
-    "username": "simon-xia",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/6264665?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "mtunique": {
-    "username": "mtunique",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/5835949?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "bom-d-van": {
-    "username": "bom-d-van",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/459505?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "WangXiangUSTC": {
-    "username": "WangXiangUSTC",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/5793595?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "yangxuanjia": {
-    "username": "yangxuanjia",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/2627712?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "Xuanwo": {
-    "username": "Xuanwo",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/5351546?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "YugandhaD": {
-    "username": "YugandhaD",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/22338495?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "losas": {
-    "username": "losas",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/15164479?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "codeworm96": {
-    "username": "codeworm96",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/8407172?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "Zhoubirdblue": {
-    "username": "Zhoubirdblue",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/8814346?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "bailaohe": {
-    "username": "bailaohe",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/1535731?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }],
-      "tikv": [{
-        "contributions": 1
-      }]
+      "tidb": 1,
+      "tikv": 1
     }
   },
   "dcadevil": {
-    "username": "dcadevil",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/14159754?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "framlog": {
-    "username": "framlog",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/3610083?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "hiwjd": {
-    "username": "hiwjd",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/1838262?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "liugangnhm": {
-    "username": "liugangnhm",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/743845?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "JinheLin": {
-    "username": "JinheLin",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/6143402?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "lijin": {
-    "username": "lijin",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/519814?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "biolee": {
-    "username": "biolee",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/7426917?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "luckcolors": {
-    "username": "luckcolors",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/3228598?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "maxwell92": {
-    "username": "maxwell92",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/4422664?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "ueizhou": {
-    "username": "ueizhou",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/26685528?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "v01dstar": {
-    "username": "v01dstar",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/16486422?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }],
-      "pd": [{
-        "contributions": 3
-      }]
+      "tidb": 1,
+      "pd": 3
     }
   },
   "wangyisong1996": {
-    "username": "wangyisong1996",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/6957967?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "youyouhu": {
-    "username": "youyouhu",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/29938918?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "zs634134578": {
-    "username": "zs634134578",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/3043524?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "qiukeren": {
-    "username": "qiukeren",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/2325492?v=4",
     "repos": {
-      "tidb": [{
-        "contributions": 1
-      }]
+      "tidb": 1
     }
   },
   "lishihai9017": {
-    "username": "lishihai9017",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/670947?v=4",
     "repos": {
-      "tikv": [{
-        "contributions": 15
-      }]
+      "tikv": 3
     }
   },
   "follitude": {
-    "username": "follitude",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/26425788?v=4",
     "repos": {
-      "tikv": [{
-        "contributions": 10
-      }]
+      "tikv": 3
     }
   },
   "weidagang": {
-    "username": "weidagang",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/489502?v=4",
     "repos": {
-      "tikv": [{
-        "contributions": 4
-      }]
+      "tikv": 3
     }
   },
   "xiang90": {
-    "username": "xiang90",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/4479947?v=4",
     "repos": {
-      "tikv": [{
-        "contributions": 2
-      }]
+      "tikv": 2
     }
   },
   "andylibrian": {
-    "username": "andylibrian",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/1214976?v=4",
     "repos": {
-      "tikv": [{
-        "contributions": 1
-      }]
+      "tikv": 1
     }
   },
   "cwen0": {
-    "username": "cwen0",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/22956341?v=4",
     "repos": {
-      "tikv": [{
-        "contributions": 1
-      }]
+      "tikv": 1
     }
   },
   "guanqun": {
-    "username": "guanqun",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/53862?v=4",
     "repos": {
-      "tikv": [{
-        "contributions": 1
-      }]
+      "tikv": 1
     }
   },
   "jonboulle": {
-    "username": "jonboulle",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/2601015?v=4",
     "repos": {
-      "tikv": [{
-        "contributions": 1
-      }]
+      "tikv": 1
     }
   },
   "PaladinTyrion": {
-    "username": "PaladinTyrion",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/4528356?v=4",
     "repos": {
-      "tikv": [{
-        "contributions": 1
-      }]
+      "tikv": 1
     }
   },
   "seth-priya": {
-    "username": "seth-priya",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/14159817?v=4",
     "repos": {
-      "tikv": [{
-        "contributions": 1
-      }]
+      "tikv": 1
     }
   },
   "Richard-zhang": {
-    "username": "Richard-zhang",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/6189781?v=4",
     "repos": {
-      "tikv": [{
-        "contributions": 1
-      }]
+      "tikv": 1
     }
   },
   "UncP": {
-    "username": "UncP",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/16263931?v=4",
     "repos": {
-      "tikv": [{
-        "contributions": 1
-      }],
-      "pd": [{
-        "contributions": 1
-      }]
+      "tikv": 1,
+      "pd": 1
     }
   },
   "aya": {
-    "username": "aya",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/155455?v=4",
     "repos": {
-      "tikv": [{
-        "contributions": 1
-      }]
+      "tikv": 1
     }
   },
   "wegel": {
-    "username": "wegel",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/1017404?v=4",
     "repos": {
-      "tikv": [{
-        "contributions": 1
-      }]
+      "tikv": 1
     }
   },
   "Connor1996": {
-    "username": "Connor1996",
-    "avatar": "",
+    "avatar": "https://avatars1.githubusercontent.com/u/13497871?v=4",
     "repos": {
-      "pd": [{
-        "contributions": 5
-      }]
+      "pd": 3
     }
   },
   "qqsun8819": {
-    "username": "qqsun8819",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/1409644?v=4",
     "repos": {
-      "pd": [{
-        "contributions": 2
-      }]
+      "pd": 2
+    }
+  },
+  "LiangShang": {
+    "avatar": "https://avatars1.githubusercontent.com/u/4581326?v=4",
+    "repos": {
+      "pd": 1
     }
   },
   "aliyx": {
-    "username": "aliyx",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/19488256?v=4",
     "repos": {
-      "pd": [{
-        "contributions": 1
-      }]
+      "pd": 1
     }
   },
   "liancheng": {
-    "username": "liancheng",
-    "avatar": "",
+    "avatar": "https://avatars2.githubusercontent.com/u/230655?v=4",
     "repos": {
-      "tispark": [{
-        "contributions": 1
-      }]
+      "tispark": 1
     }
   },
   "zhexuany": {
-    "username": "zhexuany",
-    "avatar": "",
+    "avatar": "https://avatars0.githubusercontent.com/u/13320708?v=4",
     "repos": {
-      "tispark": [{
-        "contributions": 1
-      }]
+      "tispark": 1
     }
   },
   "cove9988": {
-    "username": "cove9988",
-    "avatar": "",
+    "avatar": "https://avatars3.githubusercontent.com/u/5751322?v=4",
     "repos": {
-      "tispark": [{
-        "contributions": 1
-      }]
+      "tispark": 1
     }
   }
 }

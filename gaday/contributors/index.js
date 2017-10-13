@@ -55,6 +55,19 @@ async function getRepoContributor(repo) {
   }
 }
 
+function getContributionLevel(num) {
+  function between(x, min, max) {
+    return x >= min && x <= max
+  }
+  let level = 0
+  between(num, 1, 1) && (level = 1)
+  between(num, 2, 2) && (level = 2)
+  between(num, 3, 15) && (level = 3)
+  between(num, 16, Infinity) && (level = 4)
+
+  return level
+}
+
 
 const fs = require('fs')
 
@@ -69,23 +82,17 @@ async function main() {
 
     console.log(`Repo ${RepoList[idx]} has ${list.length} contributors`)
     list.forEach(c=>{
-      const {login, contributions} = c
+      const {login, contributions, avatar_url} = c
       const repo = RepoList[idx] // Todo 确认是否无问题，push await 顺序
       if(!aggr[login]) {
         aggr[login] = {
-          username: login,
-          avatar: '',
+          avatar: avatar_url,
           repos: {}
         }
       }
 
-      const is = {contributions}
+      aggr[login].repos[repo] = getContributionLevel(contributions)
 
-      if(aggr[login].repos[repo]) {
-        aggr[login].repos[repo].push(is)
-      } else {
-        aggr[login].repos[repo] = [is]
-      }
     })
   }, {})
   console.log(aggr)

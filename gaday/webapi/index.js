@@ -4,8 +4,6 @@
   - 点亮效果相关 get list/post item 接口
 */
 
-
-
 const jsonServer = require('json-server');
 const bodyParser = require('body-parser');
 const low = require('lowdb');
@@ -36,16 +34,27 @@ const db = low(new storage(dbfile));
 
 // 暴露contributors
 const fs = require('fs')
+// 读取 employee.txt 处理成json
+var employeeTxt = fs.readFileSync(`${__dirname}/../pingcap-employee.txt`, 'utf8')
+const employeeList = employeeTxt.split(/\n/).filter((i)=>{
+  return (i !== '/') && (i!=='')
+}).slice(1) // omit first - column head - github name
+console.log(employeeList)
+
 const contributorsData = JSON.parse(fs.readFileSync(`${__dirname}/../contributors.json`, 'utf8'))
 server.get('/api/contributors', (req, res)=>{
-  ['sivagao', 'admin', 'hrname'].forEach((i)=>{
-    contributorsData[i] = {
-      "username": "shenli",
-      "avatar": "",
-      "repos": {
-        "employee": "23"
+  employeeList.forEach((i)=>{
+    if(contributorsData[i]) {
+      contributorsData[i].repos.family = 3
+    } else {
+      contributorsData[i] = {
+        "avatar": null,
+        "repos": {
+          "family": 3
+        }
       }
     }
+
   })
   res.json(contributorsData)
 })

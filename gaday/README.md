@@ -3,6 +3,13 @@
 
 
 
+Growth
+https://docs.google.com/document/d/1stufeFLI3gJjKw1ttGGv7FlFL2ZnR9P2DI40gYn8aQQ/edit#
+
+Github info
+https://docs.google.com/spreadsheets/d/1qH7SC9BFRKlnnW6GyxLluNf4wSNUlwQjkSOlgQ76E30/edit#gid=1211262518
+
+
 
 ## GADay
 
