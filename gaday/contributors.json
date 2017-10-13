@@ -1,0 +1,2042 @@
+{
+  "queenypingcap": {
+    "username": "queenypingcap",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 51
+      }],
+      "docs-cn": [{
+        "contributions": 36
+      }],
+      "tidb": [{
+        "contributions": 1
+      }],
+      "tikv": [{
+        "contributions": 8
+      }]
+    }
+  },
+  "shenli": {
+    "username": "shenli",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 34
+      }],
+      "docs-cn": [{
+        "contributions": 74
+      }],
+      "tidb": [{
+        "contributions": 778
+      }],
+      "tikv": [{
+        "contributions": 7
+      }],
+      "pd": [{
+        "contributions": 4
+      }]
+    }
+  },
+  "siddontang": {
+    "username": "siddontang",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 33
+      }],
+      "docs-cn": [{
+        "contributions": 17
+      }],
+      "tidb": [{
+        "contributions": 583
+      }],
+      "tikv": [{
+        "contributions": 634
+      }],
+      "pd": [{
+        "contributions": 159
+      }]
+    }
+  },
+  "lilin90": {
+    "username": "lilin90",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 24
+      }],
+      "docs-cn": [{
+        "contributions": 21
+      }]
+    }
+  },
+  "Wenting0905": {
+    "username": "Wenting0905",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 13
+      }],
+      "docs-cn": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "huachaohuang": {
+    "username": "huachaohuang",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 8
+      }],
+      "docs-cn": [{
+        "contributions": 22
+      }],
+      "tidb": [{
+        "contributions": 18
+      }],
+      "tikv": [{
+        "contributions": 52
+      }],
+      "pd": [{
+        "contributions": 105
+      }]
+    }
+  },
+  "iamxy": {
+    "username": "iamxy",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 6
+      }],
+      "docs-cn": [{
+        "contributions": 6
+      }],
+      "tidb": [{
+        "contributions": 10
+      }],
+      "tikv": [{
+        "contributions": 7
+      }],
+      "pd": [{
+        "contributions": 3
+      }]
+    }
+  },
+  "nolouch": {
+    "username": "nolouch",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 4
+      }],
+      "docs-cn": [{
+        "contributions": 5
+      }],
+      "tidb": [{
+        "contributions": 13
+      }],
+      "tikv": [{
+        "contributions": 5
+      }],
+      "pd": [{
+        "contributions": 57
+      }]
+    }
+  },
+  "andelf": {
+    "username": "andelf",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 4
+      }],
+      "docs-cn": [{
+        "contributions": 27
+      }],
+      "tidb": [{
+        "contributions": 7
+      }],
+      "tikv": [{
+        "contributions": 12
+      }],
+      "pd": [{
+        "contributions": 8
+      }]
+    }
+  },
+  "qiuyesuifeng": {
+    "username": "qiuyesuifeng",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 4
+      }],
+      "docs-cn": [{
+        "contributions": 2
+      }],
+      "tidb": [{
+        "contributions": 370
+      }],
+      "tikv": [{
+        "contributions": 4
+      }],
+      "pd": [{
+        "contributions": 98
+      }]
+    }
+  },
+  "ngaut": {
+    "username": "ngaut",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 4
+      }],
+      "docs-cn": [{
+        "contributions": 27
+      }],
+      "tidb": [{
+        "contributions": 346
+      }],
+      "tikv": [{
+        "contributions": 306
+      }],
+      "pd": [{
+        "contributions": 27
+      }]
+    }
+  },
+  "xuechunL": {
+    "username": "xuechunL",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 4
+      }],
+      "docs-cn": [{
+        "contributions": 7
+      }]
+    }
+  },
+  "overvenus": {
+    "username": "overvenus",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 4
+      }],
+      "docs-cn": [{
+        "contributions": 4
+      }],
+      "tidb": [{
+        "contributions": 8
+      }],
+      "tikv": [{
+        "contributions": 103
+      }],
+      "pd": [{
+        "contributions": 56
+      }]
+    }
+  },
+  "XuHuaiyu": {
+    "username": "XuHuaiyu",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 3
+      }],
+      "docs-cn": [{
+        "contributions": 16
+      }],
+      "tidb": [{
+        "contributions": 139
+      }]
+    }
+  },
+  "LinuxGit": {
+    "username": "LinuxGit",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 3
+      }],
+      "docs-cn": [{
+        "contributions": 11
+      }]
+    }
+  },
+  "buggithubs": {
+    "username": "buggithubs",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 3
+      }],
+      "docs-cn": [{
+        "contributions": 65
+      }]
+    }
+  },
+  "c4pt0r": {
+    "username": "c4pt0r",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 3
+      }],
+      "docs-cn": [{
+        "contributions": 11
+      }],
+      "tidb": [{
+        "contributions": 107
+      }],
+      "tikv": [{
+        "contributions": 8
+      }],
+      "pd": [{
+        "contributions": 13
+      }]
+    }
+  },
+  "tiancaiamao": {
+    "username": "tiancaiamao",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 3
+      }],
+      "docs-cn": [{
+        "contributions": 20
+      }],
+      "tidb": [{
+        "contributions": 276
+      }],
+      "tikv": [{
+        "contributions": 30
+      }],
+      "pd": [{
+        "contributions": 7
+      }]
+    }
+  },
+  "GregoryIan": {
+    "username": "GregoryIan",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 2
+      }],
+      "docs-cn": [{
+        "contributions": 10
+      }],
+      "tidb": [{
+        "contributions": 2
+      }],
+      "pd": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "zimulala": {
+    "username": "zimulala",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 2
+      }],
+      "docs-cn": [{
+        "contributions": 23
+      }],
+      "tidb": [{
+        "contributions": 593
+      }],
+      "pd": [{
+        "contributions": 5
+      }]
+    }
+  },
+  "disksing": {
+    "username": "disksing",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 2
+      }],
+      "docs-cn": [{
+        "contributions": 7
+      }],
+      "tidb": [{
+        "contributions": 250
+      }],
+      "tikv": [{
+        "contributions": 255
+      }],
+      "pd": [{
+        "contributions": 111
+      }]
+    }
+  },
+  "gaoyangxiaozhu": {
+    "username": "gaoyangxiaozhu",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 2
+      }],
+      "docs-cn": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "acs-ferreira": {
+    "username": "acs-ferreira",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "choleraehyq": {
+    "username": "choleraehyq",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "holys": {
+    "username": "holys",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 1
+      }],
+      "docs-cn": [{
+        "contributions": 5
+      }],
+      "tidb": [{
+        "contributions": 5
+      }]
+    }
+  },
+  "hanfei1991": {
+    "username": "hanfei1991",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 1
+      }],
+      "docs-cn": [{
+        "contributions": 6
+      }],
+      "tidb": [{
+        "contributions": 434
+      }],
+      "tikv": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "yuanwhy": {
+    "username": "yuanwhy",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 1
+      }],
+      "docs-cn": [{
+        "contributions": 1
+      }],
+      "tidb": [{
+        "contributions": 7
+      }]
+    }
+  },
+  "BusyJay": {
+    "username": "BusyJay",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 1
+      }],
+      "tidb": [{
+        "contributions": 3
+      }],
+      "tikv": [{
+        "contributions": 598
+      }]
+    }
+  },
+  "zz-jason": {
+    "username": "zz-jason",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 1
+      }],
+      "docs-cn": [{
+        "contributions": 3
+      }],
+      "tidb": [{
+        "contributions": 100
+      }]
+    }
+  },
+  "blacktear23": {
+    "username": "blacktear23",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 1
+      }],
+      "tidb": [{
+        "contributions": 1
+      }],
+      "pd": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "javaforfun": {
+    "username": "javaforfun",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 1
+      }],
+      "docs-cn": [{
+        "contributions": 4
+      }],
+      "tikv": [{
+        "contributions": 14
+      }]
+    }
+  },
+  "sjmudd": {
+    "username": "sjmudd",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "breeswish": {
+    "username": "breeswish",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 1
+      }],
+      "docs-cn": [{
+        "contributions": 3
+      }],
+      "tidb": [{
+        "contributions": 37
+      }]
+    }
+  },
+  "louishust": {
+    "username": "louishust",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 1
+      }],
+      "tidb": [{
+        "contributions": 13
+      }]
+    }
+  },
+  "wolfstudy": {
+    "username": "wolfstudy",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 1
+      }],
+      "tispark": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "tennix": {
+    "username": "tennix",
+    "avatar": "",
+    "repos": {
+      "docs": [{
+        "contributions": 1
+      }],
+      "tidb": [{
+        "contributions": 1
+      }],
+      "tikv": [{
+        "contributions": 2
+      }],
+      "pd": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "sunhao2017": {
+    "username": "sunhao2017",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 41
+      }]
+    }
+  },
+  "coocood": {
+    "username": "coocood",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 10
+      }],
+      "tidb": [{
+        "contributions": 843
+      }],
+      "tikv": [{
+        "contributions": 2
+      }],
+      "pd": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "liubo0127": {
+    "username": "liubo0127",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 10
+      }]
+    }
+  },
+  "winkyao": {
+    "username": "winkyao",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 10
+      }],
+      "tidb": [{
+        "contributions": 28
+      }]
+    }
+  },
+  "meyu44": {
+    "username": "meyu44",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 8
+      }]
+    }
+  },
+  "zhangjinpeng1987": {
+    "username": "zhangjinpeng1987",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 7
+      }],
+      "tidb": [{
+        "contributions": 4
+      }],
+      "tikv": [{
+        "contributions": 114
+      }],
+      "pd": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "lamxTyler": {
+    "username": "lamxTyler",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 6
+      }],
+      "tidb": [{
+        "contributions": 53
+      }]
+    }
+  },
+  "winoros": {
+    "username": "winoros",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 5
+      }],
+      "tidb": [{
+        "contributions": 17
+      }],
+      "tikv": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "hicqu": {
+    "username": "hicqu",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 5
+      }],
+      "tidb": [{
+        "contributions": 51
+      }],
+      "tikv": [{
+        "contributions": 15
+      }]
+    }
+  },
+  "weekface": {
+    "username": "weekface",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 2
+      }],
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "skimmilk6877": {
+    "username": "skimmilk6877",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "liubin": {
+    "username": "liubin",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 1
+      }],
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "jackysp": {
+    "username": "jackysp",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 1
+      }],
+      "tidb": [{
+        "contributions": 22
+      }]
+    }
+  },
+  "thinxer": {
+    "username": "thinxer",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "innerr": {
+    "username": "innerr",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "iamzhout": {
+    "username": "iamzhout",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 1
+      }],
+      "pd": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "wentaoxu": {
+    "username": "wentaoxu",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 1
+      }],
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "hashbone": {
+    "username": "hashbone",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "bobotu": {
+    "username": "bobotu",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 1
+      }],
+      "tidb": [{
+        "contributions": 10
+      }]
+    }
+  },
+  "eBoyy": {
+    "username": "eBoyy",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "qgxiaozhan": {
+    "username": "qgxiaozhan",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "wenfengwang": {
+    "username": "wenfengwang",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "zhengwanbo": {
+    "username": "zhengwanbo",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "zhzy0077": {
+    "username": "zhzy0077",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "wangyanjun": {
+    "username": "wangyanjun",
+    "avatar": "",
+    "repos": {
+      "docs-cn": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "zxylvlp": {
+    "username": "zxylvlp",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 49
+      }]
+    }
+  },
+  "spongedu": {
+    "username": "spongedu",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 33
+      }]
+    }
+  },
+  "AndreMouche": {
+    "username": "AndreMouche",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 19
+      }],
+      "tikv": [{
+        "contributions": 81
+      }]
+    }
+  },
+  "hhkbp2": {
+    "username": "hhkbp2",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 17
+      }],
+      "tikv": [{
+        "contributions": 55
+      }]
+    }
+  },
+  "yanzhe-chen": {
+    "username": "yanzhe-chen",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 17
+      }]
+    }
+  },
+  "nieyy": {
+    "username": "nieyy",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 14
+      }]
+    }
+  },
+  "zyguan": {
+    "username": "zyguan",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 13
+      }]
+    }
+  },
+  "SteveZhangBit": {
+    "username": "SteveZhangBit",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 11
+      }]
+    }
+  },
+  "stdupp": {
+    "username": "stdupp",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 10
+      }]
+    }
+  },
+  "netroby": {
+    "username": "netroby",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 10
+      }]
+    }
+  },
+  "morefreeze": {
+    "username": "morefreeze",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 10
+      }],
+      "tikv": [{
+        "contributions": 84
+      }]
+    }
+  },
+  "cznic": {
+    "username": "cznic",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 9
+      }]
+    }
+  },
+  "astaxie": {
+    "username": "astaxie",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 9
+      }]
+    }
+  },
+  "hawkingrei": {
+    "username": "hawkingrei",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 8
+      }]
+    }
+  },
+  "CodeRushing": {
+    "username": "CodeRushing",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 7
+      }]
+    }
+  },
+  "xwb1989": {
+    "username": "xwb1989",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 7
+      }]
+    }
+  },
+  "lkk2003rty": {
+    "username": "lkk2003rty",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 7
+      }]
+    }
+  },
+  "sllt": {
+    "username": "sllt",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 7
+      }]
+    }
+  },
+  "mccxj": {
+    "username": "mccxj",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 7
+      }]
+    }
+  },
+  "wgliang": {
+    "username": "wgliang",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 6
+      }],
+      "pd": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "Unknwon": {
+    "username": "Unknwon",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 6
+      }]
+    }
+  },
+  "gaocegege": {
+    "username": "gaocegege",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 5
+      }]
+    }
+  },
+  "cosmtrek": {
+    "username": "cosmtrek",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 5
+      }],
+      "tikv": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "ilovesoup": {
+    "username": "ilovesoup",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 5
+      }],
+      "tispark": [{
+        "contributions": 23
+      }]
+    }
+  },
+  "idlesummerbreeze": {
+    "username": "idlesummerbreeze",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 5
+      }]
+    }
+  },
+  "insionng": {
+    "username": "insionng",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 5
+      }]
+    }
+  },
+  "mxlxm": {
+    "username": "mxlxm",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 5
+      }]
+    }
+  },
+  "c-wind": {
+    "username": "c-wind",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 5
+      }]
+    }
+  },
+  "silentred": {
+    "username": "silentred",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 4
+      }]
+    }
+  },
+  "dawxy": {
+    "username": "dawxy",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 4
+      }]
+    }
+  },
+  "steffengy": {
+    "username": "steffengy",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 4
+      }]
+    }
+  },
+  "liangjiaxing": {
+    "username": "liangjiaxing",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 3
+      }]
+    }
+  },
+  "Tratar": {
+    "username": "Tratar",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 3
+      }]
+    }
+  },
+  "wusphinx": {
+    "username": "wusphinx",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 3
+      }]
+    }
+  },
+  "0x04C2": {
+    "username": "0x04C2",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 3
+      }]
+    }
+  },
+  "ariesdevil": {
+    "username": "ariesdevil",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 3
+      }],
+      "tikv": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "ladrift": {
+    "username": "ladrift",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 3
+      }]
+    }
+  },
+  "zhangcoldwater": {
+    "username": "zhangcoldwater",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 3
+      }]
+    }
+  },
+  "fuxiaohei": {
+    "username": "fuxiaohei",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 3
+      }]
+    }
+  },
+  "plutolove": {
+    "username": "plutolove",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 3
+      }]
+    }
+  },
+  "qhsong": {
+    "username": "qhsong",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 3
+      }]
+    }
+  },
+  "roger-lijian": {
+    "username": "roger-lijian",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 3
+      }]
+    }
+  },
+  "yangwenmai": {
+    "username": "yangwenmai",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 3
+      }]
+    }
+  },
+  "AkihiroSuda": {
+    "username": "AkihiroSuda",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }],
+      "tikv": [{
+        "contributions": 1
+      }],
+      "pd": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "arthuryangcs": {
+    "username": "arthuryangcs",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "hnakamur": {
+    "username": "hnakamur",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "hzmangel": {
+    "username": "hzmangel",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "hsqlu": {
+    "username": "hsqlu",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "Alienero": {
+    "username": "Alienero",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "alston111111": {
+    "username": "alston111111",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "atmzhou": {
+    "username": "atmzhou",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "cuiyuan": {
+    "username": "cuiyuan",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "dreamquster": {
+    "username": "dreamquster",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "fudali113": {
+    "username": "fudali113",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "knarfeh": {
+    "username": "knarfeh",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "silenceper": {
+    "username": "silenceper",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "woodpenker": {
+    "username": "woodpenker",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "sempr": {
+    "username": "sempr",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "foobar": {
+    "username": "foobar",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "8cbx": {
+    "username": "8cbx",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "hamo": {
+    "username": "hamo",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "kiroInn": {
+    "username": "kiroInn",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "chuchao333": {
+    "username": "chuchao333",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "colelawrence": {
+    "username": "colelawrence",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "dantin": {
+    "username": "dantin",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }],
+      "pd": [{
+        "contributions": 5
+      }]
+    }
+  },
+  "xiaods": {
+    "username": "xiaods",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "tangdi": {
+    "username": "tangdi",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "JackDrogon": {
+    "username": "JackDrogon",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "gelstudios": {
+    "username": "gelstudios",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "guilhermehubner": {
+    "username": "guilhermehubner",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "ming-relax": {
+    "username": "ming-relax",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }],
+      "pd": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "mrmiywj": {
+    "username": "mrmiywj",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }],
+      "tikv": [{
+        "contributions": 6
+      }]
+    }
+  },
+  "shuhuai007": {
+    "username": "shuhuai007",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "kwo": {
+    "username": "kwo",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "EndlessIdea": {
+    "username": "EndlessIdea",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "liyu4": {
+    "username": "liyu4",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "Librazy": {
+    "username": "Librazy",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }],
+      "tikv": [{
+        "contributions": 1
+      }],
+      "pd": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "myrice": {
+    "username": "myrice",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "ts25504": {
+    "username": "ts25504",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "simon-xia": {
+    "username": "simon-xia",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "mtunique": {
+    "username": "mtunique",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "bom-d-van": {
+    "username": "bom-d-van",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "WangXiangUSTC": {
+    "username": "WangXiangUSTC",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "yangxuanjia": {
+    "username": "yangxuanjia",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "Xuanwo": {
+    "username": "Xuanwo",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "YugandhaD": {
+    "username": "YugandhaD",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "losas": {
+    "username": "losas",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "codeworm96": {
+    "username": "codeworm96",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "Zhoubirdblue": {
+    "username": "Zhoubirdblue",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "bailaohe": {
+    "username": "bailaohe",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }],
+      "tikv": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "dcadevil": {
+    "username": "dcadevil",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "framlog": {
+    "username": "framlog",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "hiwjd": {
+    "username": "hiwjd",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "liugangnhm": {
+    "username": "liugangnhm",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "JinheLin": {
+    "username": "JinheLin",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "lijin": {
+    "username": "lijin",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "biolee": {
+    "username": "biolee",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "luckcolors": {
+    "username": "luckcolors",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "maxwell92": {
+    "username": "maxwell92",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "ueizhou": {
+    "username": "ueizhou",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "v01dstar": {
+    "username": "v01dstar",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }],
+      "pd": [{
+        "contributions": 3
+      }]
+    }
+  },
+  "wangyisong1996": {
+    "username": "wangyisong1996",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "youyouhu": {
+    "username": "youyouhu",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "zs634134578": {
+    "username": "zs634134578",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "qiukeren": {
+    "username": "qiukeren",
+    "avatar": "",
+    "repos": {
+      "tidb": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "lishihai9017": {
+    "username": "lishihai9017",
+    "avatar": "",
+    "repos": {
+      "tikv": [{
+        "contributions": 15
+      }]
+    }
+  },
+  "follitude": {
+    "username": "follitude",
+    "avatar": "",
+    "repos": {
+      "tikv": [{
+        "contributions": 10
+      }]
+    }
+  },
+  "weidagang": {
+    "username": "weidagang",
+    "avatar": "",
+    "repos": {
+      "tikv": [{
+        "contributions": 4
+      }]
+    }
+  },
+  "xiang90": {
+    "username": "xiang90",
+    "avatar": "",
+    "repos": {
+      "tikv": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "andylibrian": {
+    "username": "andylibrian",
+    "avatar": "",
+    "repos": {
+      "tikv": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "cwen0": {
+    "username": "cwen0",
+    "avatar": "",
+    "repos": {
+      "tikv": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "guanqun": {
+    "username": "guanqun",
+    "avatar": "",
+    "repos": {
+      "tikv": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "jonboulle": {
+    "username": "jonboulle",
+    "avatar": "",
+    "repos": {
+      "tikv": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "PaladinTyrion": {
+    "username": "PaladinTyrion",
+    "avatar": "",
+    "repos": {
+      "tikv": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "seth-priya": {
+    "username": "seth-priya",
+    "avatar": "",
+    "repos": {
+      "tikv": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "Richard-zhang": {
+    "username": "Richard-zhang",
+    "avatar": "",
+    "repos": {
+      "tikv": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "UncP": {
+    "username": "UncP",
+    "avatar": "",
+    "repos": {
+      "tikv": [{
+        "contributions": 1
+      }],
+      "pd": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "aya": {
+    "username": "aya",
+    "avatar": "",
+    "repos": {
+      "tikv": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "wegel": {
+    "username": "wegel",
+    "avatar": "",
+    "repos": {
+      "tikv": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "Connor1996": {
+    "username": "Connor1996",
+    "avatar": "",
+    "repos": {
+      "pd": [{
+        "contributions": 5
+      }]
+    }
+  },
+  "qqsun8819": {
+    "username": "qqsun8819",
+    "avatar": "",
+    "repos": {
+      "pd": [{
+        "contributions": 2
+      }]
+    }
+  },
+  "aliyx": {
+    "username": "aliyx",
+    "avatar": "",
+    "repos": {
+      "pd": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "liancheng": {
+    "username": "liancheng",
+    "avatar": "",
+    "repos": {
+      "tispark": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "zhexuany": {
+    "username": "zhexuany",
+    "avatar": "",
+    "repos": {
+      "tispark": [{
+        "contributions": 1
+      }]
+    }
+  },
+  "cove9988": {
+    "username": "cove9988",
+    "avatar": "",
+    "repos": {
+      "tispark": [{
+        "contributions": 1
+      }]
+    }
+  }
+}
