@@ -4,6 +4,7 @@ document.body.addEventListener("touchstart", function() {});
 
 // import "utils/zepto.min.js";
 import "utils/template.js";
+import "utils/html5tooltips.js";
 
 const D = window.ContributorsData;
 
@@ -58,7 +59,7 @@ document.getElementById("mosaic").innerHTML = dboxHtml;
 // end render
 
 // after user fill form - pickup user contributors
-const visitorName = "queenypingcapx";
+const visitorName = "queenypingcap";
 const visitorContriList = ContriList.filter(i => i.name === visitorName);
 if (visitorContriList.length) {
   visitorContriList.forEach(i => {
@@ -72,6 +73,79 @@ if (visitorContriList.length) {
 
 // add hover handler for pixel
 const $dbox = document.getElementById("gaday-dbox");
+const $pixels = $dbox.querySelectorAll(".mosaic-rect");
+const $tooltip = new HTML5TooltipUIComponent();
+$tooltip.set({
+  // animateFunction: "spin",
+  disableAnimation: true,
+  delay: 100,
+  color: "charcoal",
+  contentText: "....",
+  stickTo: "top"
+});
+$tooltip.mount();
+
+function setAndShowToolTip(e) {
+  if (e.target.classList.contains("mosaic-rect")) {
+    const pixelId = e.target.id.replace("pixel-id-", "");
+    const { avatar, repo, level, name } = ContriList[pixelId];
+
+    if (avatar) {
+      e.target.style.backgroundImage = `url(${avatar})`;
+    }
+
+    const copyright = repo ? `${repo} - ${name}` : "Welcome to join us";
+
+    $tooltip.set({
+      target: e.target,
+      contentText: copyright
+    });
+    $tooltip.show();
+  }
+}
+
+function hideTooltip(e) {
+  $tooltip.hide();
+  e && (e.target.style.backgroundImage = null);
+}
+
+for (var i = 0; i < $pixels.length; i++) {
+  $pixels[i].addEventListener(
+    "mouseover",
+    function(e) {
+      console.log(e.target);
+      setAndShowToolTip(e);
+    },
+    false
+  );
+
+  $pixels[i].addEventListener(
+    "mouseleave",
+    function(e) {
+      console.log(e.target);
+      if (e.target.classList.contains("mosaic-rect")) {
+        hideTooltip(e);
+      }
+      // tooltip.show();
+    },
+    false
+  );
+}
+
+$dbox.addEventListener(
+  "touchstart",
+  e => {
+    console.log(e.target);
+    $tooltip.hide();
+    setAndShowToolTip(e);
+    setTimeout(e => {
+      (e => {
+        hideTooltip(e);
+      })(e);
+    }, 3000);
+  },
+  false
+);
 
 function shuffleArray(array) {
   for (var i = array.length - 1; i > 0; i--) {
