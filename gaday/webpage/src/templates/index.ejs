@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<title><%= htmlWebpackPlugin.options.title %></title>
-
-	<!-- <%= require('ejs-loader!./_meta.ejs')({ data: htmlWebpackPlugin.options }) %> -->
-	<!-- <%= require('ejs-loader!./_favicons.ejs')() %> -->
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <!-- <%= require('ejs-loader!./_meta.ejs')({ data: htmlWebpackPlugin.options }) %> -->
+    <!-- <%= require('ejs-loader!./_favicons.ejs')() %> -->
 </head>
+
 <body>
-	<%= require('ejs-loader!./_browserhappy.ejs')() %>
-
-	<!-- <%= require('ejs-loader!./starwall.ejs')() %> -->
-	<%= require('ejs-loader!./authform.ejs')() %>
-	<div class="gaday-page">
-			<h1 class="title"> TiDB GA is now released!</h1>
-			<div>
-					<%= htmlWebpackPlugin.options.contributors.xuechunL.avatar %>
-			</div>
-
-	</div>
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-	<script src='https://d3js.org/d3.v3.min.js'></script>
-
-	<!-- <%= require('ejs-loader!./_version.ejs')({ data: htmlWebpackPlugin.options }) %> -->
-	<%= require('ejs-loader!./_analytics.ejs')({ data: htmlWebpackPlugin.options }) %>
+    <%= require('ejs-loader!./_browserhappy.ejs')() %>
+        <!-- <%= require('ejs-loader!./starwall.ejs')() %> -->
+        <!-- <%= require('ejs-loader!./authform.ejs')() %> -->
+        <div class="gaday-page">
+            <h1 class="title"> <%= `Thank you for making a difference  together with us`.toUpperCase() %></h1>
+            <div class="contributor-info">
+                <span>Contributor @ </span><span id="name"> XuechunL </span> <span class="mosaic-rect level-1"></span>
+            </div>
+            <div id="mosaic" class="mosaic-wrapper"></div>
+            <div class="footer">
+                <a href="#" class="link link-release"><i class="icon icon-tag"></i>GA Release Notes</a>
+                <div class="legend">Less <span class="mosaic-rect level-0"></span> <span class="mosaic-rect level-1"></span> <span class="mosaic-rect level-2"></span> <span class="mosaic-rect level-3"></span> <span class="mosaic-rect level-4"></span> </div>
+            </div>
+        </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <!-- <%= require('ejs-loader!./_version.ejs')({ data: htmlWebpackPlugin.options }) %> -->
+        <%= require('ejs-loader!./_analytics.ejs')({ data: htmlWebpackPlugin.options }) %>
 </body>
+
 </html>

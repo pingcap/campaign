@@ -1,23 +1,24 @@
 //colors
 $color_black_pearl_92_approx: rgba(8,20,30,0.92);
-$color_curious_blue_approx: #3498db;
 $white: #fff;
-$color_blue_ribbon_approx: #0f72f4;
 $color_gallery_30_approx: rgba(238,238,238, 0.3);
 $color_gallery_approx: #eee;
-$color_athens_gray_approx: #ecf0f1;
-$color_tory_blue_approx: #0b4ea7;
-$color_midnight_blue_approx: #073067;
+$color_curious_green_approx: #c8e6c9;
+$color_green_ribbon_approx: #81c784;
+$color_tory_green_approx: #43a047;
+$color_dark_green_approx: #1b5e20;
 $color_storm_dust_approx: #666;
 $color_mountain_mist_approx: #999;
 $color_fuscous_gray_approx: #555;
 $color_iron_approx: #d1d5da;
 $color_log_cabin_approx: #222;
+$color_black_approx: #061f3e;
 //fonts
 $font_0: Lucida Grande;
 $font_1: Lucida;
 $font_2: Verdana;
 $font_3: sans-serif;
+$font_weight_title: 500;
 //border
 $radius_0: 0;
 $border: none;
@@ -34,6 +35,11 @@ $origin-x: 50%;
 $origin-y: 100%;
 $perspective: perspective(300px);
 $rotate_x: rotateX(12deg);
+//background
+// $background_lb: url(../assets/svgs/web-lie.svg);
+// $background_rt: url(../assets/svgs/web-stand.svg);
+// $background_lb_mobile: url(../assets/svgs/mobile-lie.svg);
+// $background_rt_mobile: url(../assets/svgs/mobile-stand.svg);
 
 body {
   font-family: $font_0, $font_1, $font_2, $font_3;
@@ -46,6 +52,14 @@ body {
   * {
     //Instead of the line below you could use @include box-sizing($bs)
     box-sizing: $bs;
+  }
+
+  &:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    // background: $background_lb;
   }
 }
 
@@ -77,29 +91,47 @@ body {
   }
 }
 
-.target {
-  position: absolute;
-  top: -2500px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden;
+/* modal-mask-star-wall */
+.modal-mask-star-wall {
+  .container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    //Instead of the line below you could use @include transform-origin($origin-x, $origin-y, $origin-z, $only3d)
+    transform-origin: $origin-x $origin-y;
+    //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+    transform: $perspective  $rotate_x;
+    color: $color_curious_green_approx;
+  }
 
-  .content {
-    padding-top: 3100px;
-    padding-left: 0;
-    font-size: 1.6rem;
-    line-height: 1.2;
-    text-align: center;
-    font-family: $font_3;
-    animation: autoscroll 1000s linear;
-    li {
-      display: block;
-      list-style: none;
-      margin: 15px 0;
+  .target {
+    position: absolute;
+    top: -2500px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+
+    .content {
+      padding-top: 3100px;
+      padding-left: 0;
+      font-size: 1.6rem;
+      line-height: 1.2;
+      text-align: center;
+      font-family: $font_3;
+      animation: autoscroll 1000s linear;
+      li {
+        display: block;
+        list-style: none;
+        margin: 15px 0;
+      }
     }
   }
 }
+
+
 @keyframes autoscroll {
   to {
     margin-top: -50000px;
@@ -142,7 +174,7 @@ body {
     border: none;
     //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
     border-radius: $radius_0;
-    background-color: $color_blue_ribbon_approx;
+    background-color: $color_green_ribbon_approx;
     font-size: 1rem;
     color: $white;
     text-transform: uppercase;
@@ -151,15 +183,15 @@ body {
     cursor: pointer;
 
     &:hover {
-      background: $color_curious_blue_approx;
+      background: $color_curious_green_approx;
     }
 
     &:active {
-      background: $color_curious_blue_approx;
+      background: $color_curious_green_approx;
     }
 
     &:focus {
-      background: $color_curious_blue_approx;
+      background: $color_curious_green_approx;
     }
   }
 
@@ -192,52 +224,55 @@ body {
   }
 }
 
-.page {
+.gaday-page {
   background: $white;
-  padding: 120px;
+  padding: 5rem 1rem;
+  width: 100%;
+  max-width: 1408px;
+  .title {
+    max-width: 720px;
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: $font_weight_title;
+    color: $color_black_approx;
+  }
+  .contributor-info {
+    margin-top: 30px;
+  }
+
 }
 
-.graph-rect {
+.mosaic-rect {
+  display: inline-block;
+  width: 43px;
+  height: 43px;
   fill: $color_gallery_approx !important;
 }
 
-.r1 {
-  fill: $color_athens_gray_approx !important;
-  background: $color_athens_gray_approx;
+.level-0 {
+  fill: $color_gallery_approx !important;
+  background: $color_gallery_approx;
 }
 
-.r2 {
-  fill: $color_curious_blue_approx !important;
-  background: $color_curious_blue_approx;
+.level-1 {
+  fill: $color_curious_green_approx !important;
+  background: $color_curious_green_approx;
 }
 
-.r3 {
-  fill: $color_blue_ribbon_approx !important;
-  background: $color_blue_ribbon_approx;
+.level-2 {
+  fill: $color_green_ribbon_approx !important;
+  background: $color_green_ribbon_approx;
 }
 
-.r4 {
-  fill: $color_tory_blue_approx !important;
-  background: $color_tory_blue_approx;
+.level-3 {
+  fill: $color_tory_green_approx !important;
+  background: $color_tory_green_approx;
 }
 
-.r5 {
-  fill: $color_midnight_blue_approx !important;
-  background: $color_midnight_blue_approx;
-}
-
-/* modal-mask-star-wall */
-.modal-mask-star-wall .container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  //Instead of the line below you could use @include transform-origin($origin-x, $origin-y, $origin-z, $only3d)
-  transform-origin: $origin-x $origin-y;
-  //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
-  transform: $perspective  $rotate_x;
-  color: $color_curious_blue_approx;
+.level-4 {
+  fill: $color_dark_green_approx !important;
+  background: $color_dark_green_approx;
 }
 
 @media screen and(max-width: 500px) {
@@ -247,5 +282,9 @@ body {
 
   .modal-mask .icon-close {
     display: none;
+  }
+
+  .gaday-page .title {
+    font-size: 1.4rem;
   }
 }
