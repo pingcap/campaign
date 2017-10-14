@@ -1,9 +1,15 @@
 
 
 Todo:
-- Todo 邀请函html待定
-- 二维码生成 API，加上被邀请人的github id信息，用于进入自动填写
 - Todo postmail 逻辑开发
+- 优化 （http://ytiurin.github.io/html5tooltipsjs/）
+
+Done:
+- Todo 邀请函html待定
+
+
+Archive:
+- 二维码生成 API，加上被邀请人的github id信息，用于进入自动填写
 
 
 ## 参考文档
