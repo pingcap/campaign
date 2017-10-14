@@ -92,8 +92,8 @@ body {
 }
 
 /* modal-mask-star-wall */
-.modal-mask-star-wall {
-  .container {
+// .modal-mask-star-wall {
+  .mask-inner-starwall {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -103,10 +103,8 @@ body {
     transform-origin: $origin-x $origin-y;
     //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
     transform: $perspective  $rotate_x;
-    color: $color_curious_green_approx;
-  }
 
-  .target {
+    .target {
     position: absolute;
     top: -2500px;
     bottom: 0;
@@ -121,6 +119,7 @@ body {
       line-height: 1.2;
       text-align: center;
       font-family: $font_3;
+      color: $color_curious_green_approx;
       animation: autoscroll 1000s linear;
       li {
         display: block;
@@ -129,7 +128,10 @@ body {
       }
     }
   }
-}
+  }
+
+  
+// }
 
 
 @keyframes autoscroll {
@@ -139,8 +141,8 @@ body {
 }
 
 /* modal-mask-auth-form */
-.modal-mask-auth-form {
-  .container {
+// .modal-mask-auth-form {
+  .mask-inner-authform {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -222,7 +224,7 @@ body {
       left: 2rem;
     }
   }
-}
+// }
 
 .gaday-page {
   background: $white;
