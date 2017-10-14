@@ -1,9 +1,8 @@
-
-        <form id="auth-form">
-            <input class="input" id="github-id" type="text" placeholder="please fill your GitHub ID here" />
-            <button class="btn" id="btn-auth">LIGHT MY CONTRIBUTOR CARD</button>
-            <div class="message">
-                OR
-            </div>
-            <button class="btn" id="btn-later">JOIN TiDB CONTRIBUTOR LATER</button>
-        </form>
+<div id="authform" class="mask-inner-authform" style="display:none;">
+    <form>
+        <input class="input" id="github-id" type="text" placeholder="please fill your GitHub ID here" />
+        <button class="btn" id="btn-auth" onclick="handleClick(event)">LIGHT MY CONTRIBUTOR CARD</button>
+        <div class="message">OR</div>
+        <button class="btn" id="btn-later" onclick="handleClick(event)">JOIN TiDB CONTRIBUTOR LATER</button>
+    </form>
+</div>

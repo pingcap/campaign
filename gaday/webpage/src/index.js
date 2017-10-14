@@ -21,7 +21,11 @@ const renderStarwall = () => {
 }
 
 // render auth form
-const renderAuthForm = () => {}
+const renderAuthForm = () => {
+  document.getElementById("mask").setAttribute('style','display: block');
+  document.getElementById("starwall").setAttribute('style','display: none');
+  document.getElementById("authform").setAttribute('style','display: block');
+}
 
 if (!storage) {
     console.log('not support localStorage')
@@ -32,15 +36,31 @@ if (!storage) {
       // render star wall
       storage.setItem(IS_VISITED_KEY, username)
       renderStarwall();
-      timer = setTimeout(renderAuthForm(), 3000)
-    } else {
-
+      // render auth form
+      // TODO: time to calculate
+      timer = setTimeout(() => renderAuthForm(), 1000*60)
     }
 }
 
 window.closeMask = () => {
   document.getElementById("mask").setAttribute('style','display: none');
   clearTimeout(timer)
+}
+
+window.handleClick = (e) => {
+  e = e || window.event;
+  var target = e.target || e.srcElement;
+  console.log(target);
+  
+  switch(target.id) {
+    case 'btn-auth':
+      
+      break;
+    case 'btn-later':
+      
+      break;
+  }
+  e.preventDefault();
 }
 
 
