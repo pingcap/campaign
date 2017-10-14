@@ -1,16 +1,14 @@
 import "styles/style.scss";
-import "styles/cal-heatmap.scss";
 
 document.body.addEventListener("touchstart", function() {});
 
-import "utils/heatmap.js";
 // import "utils/zepto.min.js";
 import "utils/template.js";
 
 const D = window.ContributorsData;
 
 // transform data to structure for rendering
-const isMobile = true; // isPc
+const isMobile = false; // isPc
 let ContriList = [];
 Object.keys(D).forEach(k => {
   Object.keys(D[k].repos).forEach(r => {
@@ -24,36 +22,38 @@ Object.keys(D).forEach(k => {
 });
 console.log("ContriList length:", ContriList.length); // 400
 
-const rowPixelCount = isMobile ? 20 : 25;
+const rowPixelCount = isMobile ? 17 : 32;
 const spacePixelCount =
   Math.ceil(ContriList.length / rowPixelCount) * rowPixelCount -
   ContriList.length;
 console.log("spacePixelCount length:", spacePixelCount); // 400
-Array(spacePixelCount).forEach(i => {
-  ContriList.push({
-    name: `space-${i}`,
-    repo: null
+Array(spacePixelCount)
+  .fill({})
+  .forEach(i => {
+    ContriList.push({
+      name: `space-${i}`,
+      repo: null,
+      level: 0
+    });
   });
-});
 
 ContriList = shuffleArray(ContriList).map((i, idx) => {
   i.idx = idx;
   return i;
 });
-console.log("ContriList for render is ", ContriList);
+// console.log("ContriList for render is ", ContriList);
 // random it contrilist
 
 // end transform
 
 // render dbox
-
-console.log(
-  window.tmpl(
-    `<div class="gaday-dbox" id="gaday-dbox"><% data.forEach((i)=>{ %><div class="contri-level-<%= i.level %>" id="pixel-id-<%= i.idx %>"><%= i.name %></div> <% }) ;%></div>`
-  )({
-    data: ContriList
-  })
-);
+const dboxHtml = window.tmpl(
+  `<div class="gaday-dbox" id="gaday-dbox"><% data.forEach((i)=>{ %><div class="mosaic-rect level-<%= i.level %>" id="pixel-id-<%= i.idx %>"></div> <% }) ;%></div>`
+)({
+  data: ContriList
+});
+// console.log(dboxHtml);
+document.getElementById("mosaic").innerHTML = dboxHtml;
 
 // end render
 
