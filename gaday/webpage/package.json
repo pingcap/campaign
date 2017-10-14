@@ -43,7 +43,9 @@
     "esm": "js",
     "cjs": true
   },
-  "dependencies": {},
+  "dependencies": {
+    "utils": "^0.3.1"
+  },
   "devDependencies": {
     "@std/esm": "^0.9.2",
     "autoprefixer": "^7.1.4",

@@ -65,5 +65,5 @@ server.get('/api/contributors', (req, res)=>{
 
 //启动服务，并监听5000端口
 server.listen(5000, () => {
-  console.log('server is running at ', 5000, dbfile);
+  console.log('server is running at ', 5000);
 });
