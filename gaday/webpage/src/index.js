@@ -16,55 +16,56 @@ let ContriList = [];
 const storage = window.localStorage;
 let contriGithubName = storage ? storage.getItem(CONTRI_GITHUB_NAME) : null;
 
-let timer, currentModal;
+// mask for authform and starwall
+{
+  let timer, currentModal;
 
-// render star wall
-const renderMask = type => {
-  document.getElementById("mask").setAttribute("style", "display: block");
-  if (type === "authform") {
-    document.getElementById("starwall").setAttribute("style", "display: none");
-  }
-  document.getElementById(type).setAttribute("style", "display: block");
-  currentModal = type;
-};
-window.closeMask = () => {
-  document.getElementById("mask").setAttribute("style", "display: none");
-  if (currentModal === "starwall") {
-    storage && storage.setItem(IS_VISITED_KEY, true);
-  }
-  if (currentModal === "authform") {
-  }
-  timer && clearTimeout(timer);
-};
+  // render star wall
+  const renderMask = type => {
+    document.getElementById("mask").setAttribute("style", "display: block");
+    if (type === "authform") {
+      document
+        .getElementById("starwall")
+        .setAttribute("style", "display: none");
+    }
+    document.getElementById(type).setAttribute("style", "display: block");
+    currentModal = type;
+  };
+  window.closeMask = () => {
+    document.getElementById("mask").setAttribute("style", "display: none");
+    if (currentModal === "starwall") {
+      storage && storage.setItem(IS_VISITED_KEY, true);
+    }
+    if (currentModal === "authform") {
+    }
+    timer && clearTimeout(timer);
+  };
 
-const visited = storage ? storage.getItem(IS_VISITED_KEY) : false;
-console.log(IS_VISITED_KEY, visited);
-if (!visited) {
-  renderMask("starwall");
-  // TODO: time to calculate
-  timer = setTimeout(() => {
-    renderMask("authform");
-    storage && storage.setItem(IS_VISITED_KEY, true);
-  }, 1000 * 20);
-} else {
-  if (!contriGithubName) {
-    renderMask("authform");
+  const visited = storage ? storage.getItem(IS_VISITED_KEY) : false;
+  console.log(IS_VISITED_KEY, visited);
+  if (!visited) {
+    renderMask("starwall");
+    // TODO: time to calculate
+    timer = setTimeout(() => {
+      renderMask("authform");
+      storage && storage.setItem(IS_VISITED_KEY, true);
+    }, 1000 * 20);
+  } else {
+    if (!contriGithubName) {
+      renderMask("authform");
+    }
   }
+
+  window.handleAuthFormClick = type => {
+    contriGithubName = document.getElementById("github-id").value;
+    if (type === "contributor" && !contriGithubName) return;
+
+    storage && storage.setItem(CONTRI_GITHUB_NAME, contriGithubName);
+    lightContriPixel(contriGithubName);
+    closeMask();
+  };
 }
-
-window.handleAuthFormClick = type => {
-  contriGithubName = document.getElementById("github-id").value;
-  if (type === "contributor" && !contriGithubName) return;
-
-  storage && storage.setItem(CONTRI_GITHUB_NAME, contriGithubName);
-  lightContriPixel(contriGithubName);
-  closeMask();
-  // switch (target.id) {
-  //   case "btn-auth":
-  //     break;
-  //   case "btn-later":
-  //     break;
-};
+// end mask
 
 // transform data to structure for rendering
 const isMobile = false; // isPc Todo
@@ -107,7 +108,7 @@ const isMobile = false; // isPc Todo
 // render dbox
 {
   const dboxHtml = window.tmpl(
-    `<div class="gaday-dbox" id="gaday-dbox"><% data.forEach((i)=>{ %><div class="mosaic-rect level-<%= i.level %>" id="pixel-id-<%= i.idx %>"></div> <% }) ;%></div>`
+    `<div class="gaday-dbox" id="gaday-dbox"><% data.forEach((i)=>{ %><div class="pixel-box level-<%= i.level %>" id="pixel-id-<%= i.idx %>"></div> <% }) ;%></div>`
   )({
     data: ContriList
   });

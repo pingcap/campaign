@@ -30,7 +30,7 @@ const images = {
 };
 
 const svg = {
-  test: /\.svg$/,
+  test: /\.xxsvg$/,
   use: [{ loader: "svg-sprite-loader", options: {} }]
 };
 
