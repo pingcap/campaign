@@ -11,6 +11,9 @@
 
 </head>
 <body>
+  <script type="text/javascript">
+    window.ContributorsData = JSON.parse('<%= JSON.stringify(htmlWebpackPlugin.options.contributors) %>')
+  </script>
 	<%= require('ejs-loader!./_browserhappy.ejs')() %>
 
 	<!-- <%= require('ejs-loader!./starwall.ejs')() %> -->

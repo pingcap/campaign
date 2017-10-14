@@ -5,6 +5,9 @@
   3 invoke email send | loop to mail list
 */
 
+// mailgun send image inline body
+// https://github.com/bojand/mailgun-js/issues/161
+
 const Contributors = require('../contributors')
 
 async function main() {
