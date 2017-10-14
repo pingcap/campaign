@@ -1,15 +1,22 @@
 const puppeteer = require('puppeteer');
 
-const PromisePool = require('es6-promise-pool')
+// https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#pagescreenshotoptions
 
 async function generate(name) {
   console.log('generate.. ', name)
   const browser = await puppeteer.launch();
   try {
     const page = await browser.newPage();
+    await page.setViewport({
+      width: 540,
+      height: 960,
+      deviceScaleFactor: 2, // retina
+    })
     await page.goto(`file://${__dirname}/index.html#${name}`);
     await page.screenshot({
-      path: `${__dirname}/images/${name}.png`
+      quality: 30,
+      type: 'jpeg',
+      path: `${__dirname}/images/${name}.jpeg`
     });
     return await browser.close();
   } catch (e) {
@@ -20,7 +27,7 @@ async function generate(name) {
 
 async function loop() {
   const contributorsData = JSON.parse(fs.readFileSync(`${__dirname}/../contributors.json`, 'utf8'))
-  const listActions = Object.keys(contributorsData).slice(0, 200)//.map(i => (i => generate(i))(i))
+  const listActions = Object.keys(contributorsData).slice(0, 200) //.map(i => (i => generate(i))(i))
 
   for (i of listActions) {
     await generate(i)
