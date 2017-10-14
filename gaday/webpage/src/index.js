@@ -105,7 +105,7 @@ ContriList = shuffleArray(ContriList).map((i, idx) => {
 
 // render dbox
 const dboxHtml = window.tmpl(
-    `<div class="gaday-dbox" id="gaday-dbox"><% data.forEach((i)=>{ %><div class="mosaic-rect level-<%= i.level %>" id="pixel-id-<%= i.idx %>"></div> <% }) ;%></div>`
+    `<div class="gaday-dbox" id="gaday-dbox"><% data.forEach((i)=>{ %><div class="pixel-box level-<%= i.level %>" id="pixel-id-<%= i.idx %>"></div> <% }) ;%></div>`
 )({
     data: ContriList
 });
@@ -129,7 +129,7 @@ if (visitorContriList.length) {
 
 // add hover handler for pixel
 const $dbox = document.getElementById("gaday-dbox");
-const $pixels = $dbox.querySelectorAll(".mosaic-rect");
+const $pixels = $dbox.querySelectorAll(".pixel-box");
 const $tooltip = new HTML5TooltipUIComponent();
 $tooltip.set({
   // animateFunction: "spin",
@@ -142,7 +142,7 @@ $tooltip.set({
 $tooltip.mount();
 
 function setAndShowToolTip(e) {
-  if (e.target.classList.contains("mosaic-rect")) {
+  if (e.target.classList.contains("pixel-box")) {
     const pixelId = e.target.id.replace("pixel-id-", "");
     const { avatar, repo, level, name } = ContriList[pixelId];
 
@@ -179,7 +179,7 @@ for (var i = 0; i < $pixels.length; i++) {
     "mouseleave",
     function(e) {
       console.log(e.target);
-      if (e.target.classList.contains("mosaic-rect")) {
+      if (e.target.classList.contains("pixel-box")) {
         hideTooltip(e);
       }
       // tooltip.show();

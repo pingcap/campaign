@@ -35,6 +35,9 @@ $origin-x: 50%;
 $origin-y: 100%;
 $perspective: perspective(300px);
 $rotate_x: rotateX(12deg);
+
+$max_width_pc: 1408px;
+$min_width_pc: 960px;
 //background
 // $background_lb: url(../assets/svgs/web-lie.svg);
 // $background_rt: url(../assets/svgs/web-stand.svg);
@@ -228,7 +231,7 @@ body {
 
 .gaday-page {
   background: $white;
-  padding: 5rem 1rem;
+  padding: 5rem 2rem;
   width: 100%;
   max-width: 1408px;
   .title {
@@ -245,13 +248,38 @@ body {
 
 }
 
-.mosaic-rect {
-  display: inline-block;
-  width: 43px;
-  height: 43px;
-  fill: $color_gallery_approx !important;
-  background-size: contain!important;
+.mosaic-wrapper {
+  margin: 30px 0 20px 0;
+  .gaday-dbox {
+    max-width: 1408px;
+    min-width: 960px;
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    // justify-content: space-around;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+
+  .pixel-box {
+    // display: inline-block;
+    margin: 1px;
+    height: auto;
+    // flex-basis: 3%;
+    width: 36px;
+    height: 36px;
+    fill: $color_gallery_approx !important;
+    background-size: contain!important;
+  }
 }
+
+
+
+
 
 .level-0 {
   fill: $color_gallery_approx !important;
