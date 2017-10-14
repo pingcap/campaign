@@ -8,6 +8,7 @@
 const Contributors = require('../contributors')
 
 async function main() {
+  // Test get email logic
   console.log(await Contributors.getUserEmail('gaohailang'))
   console.log(await Contributors.getUserEmail('octokit'))
   console.log(await Contributors.getUserEmail('shenli'))

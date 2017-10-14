@@ -3,24 +3,17 @@
   "version": "1.0.0",
   "description": "1 生成邀请函图片 url - dom 渲染生成图片？ - 二维码生成？",
   "main": "index.js",
-  "scripts": {
-    "dev": "egg-bin dev"
-  },
+  "scripts": {},
   "author": "",
   "engines": {
     "node": ">=8.0"
   },
   "license": "ISC",
   "dependencies": {
-    "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
-    "egg": "^1.9.0",
+    "es6-promise-pool": "^2.5.0",
     "github": "^11.0.0",
     "json-server": "^0.12.0",
-    "lowdb": "^1.0.0",
-    "puppeteer": "^0.11.0"
-  },
-  "devDependencies": {
-    "egg-bin": "^4.3.5"
+    "puppeteer": "0.11.0"
   }
 }

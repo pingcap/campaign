@@ -6,8 +6,8 @@
 
 const jsonServer = require('json-server');
 const bodyParser = require('body-parser');
-const low = require('lowdb');
-const storage = require('lowdb/adapters/FileAsync');
+// const low = require('lowdb');
+// const storage = require('lowdb/adapters/FileAsync');
 
 
 //创建一个Express服务器
@@ -21,10 +21,10 @@ server.use(bodyParser.json());
 
 
 //数据文件
-const dbfile = (true || process.env.prod === '1') ? 'db.json' : '_db.json';
+// const dbfile = (true || process.env.prod === '1') ? 'db.json' : '_db.json';
 
 //创建一个lowdb实例
-const db = low(new storage(dbfile));
+// const db = low(new storage(dbfile));
 
 // const md5 = str => crypto
 //     .createHash('md5')
@@ -60,8 +60,8 @@ server.get('/api/contributors', (req, res)=>{
 })
 
 //路由配置
-const router = jsonServer.router(dbfile);
-server.use('/api', router);
+// const router = jsonServer.router(dbfile);
+// server.use('/api', router);
 
 //启动服务，并监听5000端口
 server.listen(5000, () => {

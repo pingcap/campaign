@@ -1,19 +1,46 @@
 
 
+Todo:
+- Todo 邀请函html待定
+- 二维码生成 API，加上被邀请人的github id信息，用于进入自动填写
+- Todo postmail 逻辑开发
 
 
+## 参考文档
 
-Growth
+- Growth and Design Spec
 https://docs.google.com/document/d/1stufeFLI3gJjKw1ttGGv7FlFL2ZnR9P2DI40gYn8aQQ/edit#
 
-Github info
+- Github info Sheet
 https://docs.google.com/spreadsheets/d/1qH7SC9BFRKlnnW6GyxLluNf4wSNUlwQjkSOlgQ76E30/edit#gid=1211262518
+
+
+## 目录结构
+
+- contributors 用于生产 contributors.json （从PingCAP主要项目拉取contributors）和提取 github id 的email
+- invitation-letter 使用 contributors.json 生成的invitation-letter的图片邀请函
+- postmail 使用 contributors.json 信息， 找到图片内容，发送邮件逐个。
+- webapi
+
+
+## Usage
+
+- 从 google sheet github info copy 员工列表（github name)到 pingcap-employee.txt
+
+- 生成主要项目的 contributors.json
+node contributors/index.js
+
+- 生成邀请函图片：
+nvm use v8.5
+node invitation-letter/generate.js ALL
+node invitation-letter/generate.js siva
 
 
 
 ## GADay
 
 1 生成邀请函图片 url
+
 - dom 渲染生成图片？
 - 二维码生成？
 
