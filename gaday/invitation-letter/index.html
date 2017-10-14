@@ -5,15 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <style type="text/css" media="screen">
+    body * {
+      margin: 0;
+      padding: 0;
+    }
+    .card {
+      position: relative;
+      width: 540px;
+      height: 960px;
+      background-image: url('./images/invitationcard.jpg');
+      background-size: 540px 960px;
+      margin: auto;
+    }
+    .card h1 {
+      position: absolute;
+      width: 95%;
+      text-align: center;
+      top:  170px;
+      left:  50%;
+      padding: 0 10px;
+      font-size: 32px;
+      color: #2d3e50;
+      font-family: Lucida Grande;
+      font-weight: 900;
+      -webkit-transform: translateX(-50%);
+         -moz-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+           -o-transform: translateX(-50%);
+              transform: translateX(-50%);
+    }
+  </style>
 </head>
 <body>
   <script type="text/javascript">
     window.name = location.hash.slice(1)
   </script>
+  <div class="card">
     <h1>
-      PingCAP TiDB 邀请函 <script type="text/javascript">
+      @<script type="text/javascript">
         document.write(window.name)
-      </script> hello
+      </script>
     </h1>
+  </div> 
 </body>
 </html>
