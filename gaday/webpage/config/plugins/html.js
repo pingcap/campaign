@@ -62,6 +62,9 @@ const htmlIndex = new HtmlWebpackPlugin({
   },
   analyticsUA: PACKAGE.config.analyticsUA,
   gitInfo: GIT_INFO,
+  contributors: JSON.parse(
+    fs.readFileSync(`${__dirname}/../../contributors.json`, "utf8")
+  ),
   NODE_ENV: NODE_ENV,
   minify: minifyOptions
 });
