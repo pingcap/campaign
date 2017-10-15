@@ -36,6 +36,10 @@ let contriGithubName = storage ? storage.getItem(CONTRI_GITHUB_NAME) : null;
     document.getElementById(type).setAttribute("style", "display: block");
     currentModal = type;
   };
+
+  window.renderMask = () => {
+    renderMask('starwall');
+  }
   window.closeMask = () => {
     document.getElementById("mask").setAttribute("style", "display: none");
     if (currentModal === "starwall") {
