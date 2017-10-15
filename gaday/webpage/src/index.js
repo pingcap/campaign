@@ -1,3 +1,4 @@
+import "styles/animate.min.css";
 import "styles/style.scss";
 
 /*
@@ -26,7 +27,7 @@ let contriGithubName = storage ? storage.getItem(CONTRI_GITHUB_NAME) : null;
     if (type === "authform") {
       document
         .getElementById("starwall")
-        .setAttribute("style", "display: none");
+        .setAttribute("class", "mask-inner-starwall animated fadeOut");
 
       // hidden close button
       document
@@ -37,7 +38,17 @@ let contriGithubName = storage ? storage.getItem(CONTRI_GITHUB_NAME) : null;
     currentModal = type;
   };
 
-  window.renderMask = () => {
+  window.renderStarwall = () => {
+    // 清楚上一次打开是的状态
+    document
+        .getElementById("btn-close")
+        .setAttribute("style", "display: block");
+    document
+      .getElementById("authform")
+      .setAttribute("style", "display: none");
+    document
+      .getElementById("starwall")
+      .setAttribute("class", "mask-inner-starwall");
     renderMask('starwall');
   }
   window.closeMask = () => {
@@ -58,7 +69,7 @@ let contriGithubName = storage ? storage.getItem(CONTRI_GITHUB_NAME) : null;
     timer = setTimeout(() => {
       renderMask("authform");
       storage && storage.setItem(IS_VISITED_KEY, true);
-    }, 1000 * 20);
+    }, 1000 * 16);
   } else {
     if (!contriGithubName) {
       renderMask("authform");
@@ -134,14 +145,20 @@ function lightContriPixel(name) {
 
   const visitorContriList = ContriList.filter(i => i.name === name);
   if (visitorContriList.length) {
-    let infoHtml = `<span>Contributor @</span><span id="name">${name} </span>`;
+    let infoHtml = `<div>Contributor @<span id="name">${name} </span></div><div class="repos">`;
     visitorContriList.forEach(i => {
       infoHtml += `<span class="pixel-box level-${i.level}"></span>${i.repo}`;
+
+      if(!isMobile)
+        document.getElementById(
+            `pixel-id-${i.idx}`
+          ).innerHTML = `<span>${i.repo}<span>`;
       document.getElementById(
-        `pixel-id-${i.idx}`
-      ).innerHTML = `<span>${i.repo}</span>`;
+          `pixel-id-${i.idx}`
+        ).setAttribute('class', 'pixel-box owner');
     });
-    $head.innerHTML = infoHtml;
+    
+    $head.innerHTML = infoHtml + `</div>`;
   } else {
     // welcome bro - for newbie
     $head.innerHTML = `<span class="icon"></span> Join us NOW! Let’s Rock the Open Source World`;
@@ -157,7 +174,6 @@ function lightContriPixel(name) {
     // animateFunction: "spin",
     disableAnimation: true,
     delay: 100,
-    color: "charcoal",
     contentText: "....",
     stickTo: "top"
   });
@@ -172,7 +188,7 @@ function lightContriPixel(name) {
         e.target.style.backgroundImage = `url(${avatar})`;
       }
 
-      const copyright = repo ? `${repo} - ${name}` : "Welcome to join us";
+      const copyright = repo ? `<span class="repo">${repo}</span> @${name}` : "Welcome to join us";
 
       $tooltip.set({
         target: e.target,

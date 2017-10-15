@@ -19,30 +19,33 @@
   <%= require('ejs-loader!./_browserhappy.ejs')() %>
         
   <div id="mask" class="modal-mask" style="display: none;">
-		<a id="btn-close" class="btn-close" href="javascript:;" onclick="closeMask()"><i class="icon"></i></a>
+		<button id="btn-close" class="btn-close" onclick="closeMask()"><i class="icon"></i></button>
         	
     <%= require('ejs-loader!./starwall.ejs')() %>
     <%= require('ejs-loader!./authform.ejs')() %>
   </div>
 
-  <div class="gaday-page">
+  <div class="animated fadeIn gaday-page">
 		<h1 class="title"> <%= `Thank you for making a difference with us`.toUpperCase() %></h1>
 		<div class="contributor-info"></div>
 		<div id="mosaic" class="mosaic-wrapper"></div>
 		<div class="footer">
-			<div class="links">
-				<a href="#" class="link-release"><i class="icon"></i>GA Release Notes</a>
-	 			<a href="javascript:;" onclick="renderMask()" class="link-intro"><i class="icon"></i>Time travel with TiDB again.</a>
-	    </div>
-			<div class="legend">
-				Less
-				<span class="pixel-box level-0"></span>
-				<span class="pixel-box level-1"></span>
-				<span class="pixel-box level-2"></span>
-				<span class="pixel-box level-3"></span>
-				<span class="pixel-box level-4"></span>
-				More
+      <!-- TODO: change href for link -->
+			<a href="#" class="link link-release"><i class="icon"></i>GA Release Notes</a>
+	 			
+      <div>
+        <div class="legend">
+          Less
+          <span class="pixel-box level-0"></span>
+          <span class="pixel-box level-1"></span>
+          <span class="pixel-box level-2"></span>
+          <span class="pixel-box level-3"></span>
+          <span class="pixel-box level-4"></span>
+          More
+        </div>
+        <button onclick="renderStarwall()" class="link link-intro"><i class="icon"></i>Time travel with TiDB again.</button>
       </div>
+			
     </div>
   </div>
 <!-- <%= require('ejs-loader!./_version.ejs')({ data: htmlWebpackPlugin.options }) %> -->

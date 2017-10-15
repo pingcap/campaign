@@ -27,6 +27,7 @@ $border: none;
 //box
 $bs: border-box;
 $pixel: 2rem;
+$pixel_mobile: 1.5rem;
 //translate
 $vertical_center: translateY(-50%);
 $horizontal_center: translateX(-50%);
@@ -38,9 +39,6 @@ $origin-x: 50%;
 $origin-y: 100%;
 $perspective: perspective(300px);
 $rotate_x: rotateX(12deg);
-
-$max_width_pc: 1408px;
-$min_width_pc: 860px;
 //background
 $background_web: url('../assets/svgs/background-web.svg') no-repeat center;
 $background_mobile: url('../assets/svgs/background-mobile.svg') no-repeat center;
@@ -48,21 +46,31 @@ $background_mobile: url('../assets/svgs/background-mobile.svg') no-repeat center
 body {
     font-family: $font_0, $font_1, $font_2, $font_3;
     padding: 0;
-    margin: 0; 
+    margin: 0;
     min-height: 100vh;
     background: $background_web;
     background-size: cover;
-    // display: flex;
-    // justify-content: space-between;
     * {
         box-sizing: $bs;
+        margin: 0;
+        -webkit-tap-highlight-color: transparent;
+        -moz-tap-highlight-color: transparent;
     }
+}
+
+button {
+    cursor: pointer;
+}
+
+input,
+button {
+    outline: 0;
+    -webkit-appearance:none;
 }
 
 .f-hide {
     display: none;
 }
-
 
 
 /* modal-mask */
@@ -80,17 +88,22 @@ body {
         position: absolute;
         top: 25px;
         right: 25px;
+        background: none;
+        border: none;
         font-size: 2rem;
 
         .icon {
-          display: inline-block;
-          width: 24px;
-          height: 24px;
-          background: url(../assets/svgs/close.svg) no-repeat center;
-          background-size: 1.25rem 1.25rem;
-      }
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background: url(../assets/svgs/close.svg) no-repeat center;
+            background-size: 1.25rem 1.25rem;
+        }
     }
 }
+
+
+/* modal-mask-starwall */
 
 .mask-inner-starwall {
     position: absolute;
@@ -110,18 +123,18 @@ body {
         overflow: hidden;
 
         .content {
-            padding-top: 3100px;
+            padding-top: 3210px;
             padding-left: 0;
             font-size: 1.6rem;
             line-height: 1.2;
             text-align: center;
             font-family: $font_3;
             color: $color_curious_green_approx;
-            animation: autoscroll 1000s linear;
+            animation: autoscroll 40s linear;
             li {
-              display: block;
-              list-style: none;
-              margin: 15px 0;
+                display: block;
+                list-style: none;
+                margin: 15px 0;
             }
         }
     }
@@ -130,7 +143,7 @@ body {
 
 @keyframes autoscroll {
     to {
-        margin-top: -50000px;
+        margin-top: -3000px;
     }
 }
 
@@ -150,7 +163,6 @@ form {
 
 input {
     display: block;
-    outline: 0;
     background: $white;
     width: 18rem;
     height: 3rem;
@@ -163,28 +175,26 @@ input {
 
 .btn {
     display: block;
-    outline: 0;
     width: 18rem;
     height: 3rem;
     border: none;
     border-radius: $radius_0;
-    background-color: $color_green_ribbon_approx;
+    background-color: $color_tory_green_approx;
     font-size: 1rem;
     color: $white;
     text-transform: uppercase;
     transition: $transition_ease_1;
-    cursor: pointer;
 
     &:hover {
-        background: $color_curious_green_approx;
+        background: $color_green_ribbon_approx;
     }
 
     &:active {
-        background: $color_curious_green_approx;
+        background: $color_green_ribbon_approx;
     }
 
     &:focus {
-        background: $color_curious_green_approx;
+        background: $color_green_ribbon_approx;
     }
 }
 
@@ -216,11 +226,11 @@ input {
     }
 }
 
+
+/* gaday */
 .gaday-page {
     padding: 4rem 2.5rem;
     margin: 0 auto;
-    // max-width: $max_width_pc;
-    // min-width: $min_width_pc;
     .title {
         font-size: 2rem;
         text-align: center;
@@ -229,6 +239,8 @@ input {
     }
     .contributor-info {
         display: flex;
+        flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
         align-items: center;
         width: inherit;
         margin: 2rem 0 1rem;
@@ -238,6 +250,9 @@ input {
         #name {
             margin-right: 10px;
         }
+        .repos {
+            display: flex;
+        }
         .pixel-box {
             width: $pixel;
             height: $pixel;
@@ -245,12 +260,27 @@ input {
             margin-right: 5px;
         }
         .icon {
-          width: 30px;
-          height: 25px;
-          margin-right: 10px;
-          background: url('../assets/svgs/github.svg') no-repeat center;
-          background-size: 24px 24px;
+            width: 30px;
+            height: 25px;
+            margin-right: 10px;
+            background: url('../assets/svgs/github.svg') no-repeat center;
+            background-size: 24px 24px;
         }
+    }
+}
+
+.html5tooltip-box {
+    background-color: $color_black_pearl_92_approx;
+    border-radius: 2px;
+    padding: 8px 10px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, .15), 0 0 10px rgba(255, 255, 255, .15);
+    color: $color_curious_green_approx;
+    font-size: 1rem;
+
+    .repo {
+        margin-right: 6px;
+        color: $white;
+        font-weight: 600;
     }
 }
 
@@ -261,15 +291,14 @@ input {
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
-        -webkit-flex-flow: row wrap; 
-        // justify-content: space-around;
-        justify-content: space-between;
+        flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        justify-content: start; // justify-content: space-between;
         flex-direction: row;
     }
 
     .pixel-box {
-        margin: 1px; 
-        // flex-basis: 3%;
+        margin: 1px; // flex-basis: 3%;
         // height: auto;
         width: $pixel;
         height: $pixel;
@@ -303,47 +332,69 @@ input {
     background: $color_dark_green_approx;
 }
 
+.owner {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 0 2px;
+    fill: $clole_tory_blue !important;
+    background: $clole_tory_blue;
+
+    span {
+        display: table-cell;
+        vertical-align: middle;
+        word-break: break-word;
+        text-align: center;
+        color: $white;
+        font-size: calc((100% - 2px)/2);
+        cursor: default;
+    }
+}
+
 .footer {
     display: flex;
+    flex-flow: row wrap;
     -webkit-flex-flow: row wrap;
     justify-content: space-between;
     line-height: $pixel;
     font-size: 1rem;
     color: $color_gray_blue_approx;
 
-    .links {
-      a {
+    .link {
         display: flex;
         align-items: center;
-        line-height: $pixel;
-        margin-top: 10px;
-        
-      }
-      .icon {
-        width: 1.25rem;
-        height: 1.25rem;
-        margin-right: 0.6rem;
-      }
+        height: $pixel;
+        .icon {
+            width: 1.25rem;
+            height: 1.25rem;
+            margin-right: 0.6rem;
+        }
     }
 
     .link-release {
-      padding: 0 0.6rem;
-      background-color: $clole_tory_blue;
-      color: $white;
-      text-decoration: none;
-      .icon {
-        background: url(../assets/svgs/tag.svg) no-repeat center;
-        background-size: 1.25rem 1.25rem;
-      }
+        margin-top: 10px;
+        padding: 0 0.6rem;
+        background-color: $clole_tory_blue;
+        color: $white;
+        text-decoration: none;
+        .icon {
+            background: url(../assets/svgs/tag.svg) no-repeat center;
+            background-size: 1.25rem 1.25rem;
+        }
     }
 
     .link-intro {
-      font-size: 12px;
-      color: $color_gray_blue_approx;
-      .icon {
-        background: url(../assets/svgs/paper-plane.svg) no-repeat center;
-        background-size: 1.25rem 1.25rem;
-      }
+        background: none;
+        margin-top: 5px;
+        border:none;
+        justify-content: flex-end;
+        font-size: 12px;
+        color: $color_gray_blue_approx;
+
+        .icon {
+            background: url(../assets/svgs/paper-plane.svg) no-repeat center;
+            background-size: 1.25rem 1.25rem;
+        }
     }
 
     .legend {
@@ -359,24 +410,25 @@ input {
 }
 
 @media screen and(max-width: 500px) {
-    html, body {
+    html,
+    body {
         font-size: 10px;
     }
-
     body {
-      background: $background_mobile;
-      background-size: cover;
+        background: $background_mobile;
+        background-size: cover;
     }
-
+    .mosaic-wrapper .pixel-box {
+        width: $pixel_mobile;
+        height: $pixel_mobile;
+    }
     .gaday-page .contributor-info {
-      font-size: .6rem;
+        font-size: .6rem;
     }
-
-    // .modal-mask .btn-close {
-    //     display: none;
-    // }
-
+    .gaday-page .contributor-info .pixel-box,
     .footer .pixel-box {
-      margin: 0 2px;
+        width: $pixel_mobile;
+        height: $pixel_mobile;
+        margin: 0 2px;
     }
 }
