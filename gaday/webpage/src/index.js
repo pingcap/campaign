@@ -41,8 +41,8 @@ let contriGithubName = storage ? storage.getItem(CONTRI_GITHUB_NAME) : null;
   window.renderStarwall = () => {
     // 清楚上一次打开是的状态
     document
-        .getElementById("btn-close")
-        .setAttribute("style", "display: block");
+      .getElementById("btn-close")
+      .setAttribute("style", "display: block");
     document
       .getElementById("authform")
       .setAttribute("style", "display: none");
@@ -56,8 +56,7 @@ let contriGithubName = storage ? storage.getItem(CONTRI_GITHUB_NAME) : null;
     if (currentModal === "starwall") {
       storage && storage.setItem(IS_VISITED_KEY, true);
     }
-    if (currentModal === "authform") {
-    }
+    if (currentModal === "authform") {}
     timer && clearTimeout(timer);
   };
 
@@ -148,16 +147,16 @@ function lightContriPixel(name) {
     let infoHtml = `<div>Contributor @<span id="name">${name} </span></div><div class="repos">`;
     visitorContriList.forEach(i => {
       infoHtml += `<span class="pixel-box level-${i.level}"></span>${i.repo}`;
-
-      if(!isMobile)
-        document.getElementById(
-            `pixel-id-${i.idx}`
-          ).innerHTML = `<span>${i.repo}<span>`;
+      // FIXME: too small to show
+      // if (!isMobile)
+      //   document.getElementById(
+      //     `pixel-id-${i.idx}`
+      //   ).innerHTML = `<span>${i.repo}<span>`;
       document.getElementById(
-          `pixel-id-${i.idx}`
-        ).setAttribute('class', 'pixel-box owner');
+        `pixel-id-${i.idx}`
+      ).setAttribute('class', 'pixel-box owner');
     });
-    
+
     $head.innerHTML = infoHtml + `</div>`;
   } else {
     // welcome bro - for newbie
@@ -182,7 +181,12 @@ function lightContriPixel(name) {
   function setAndShowToolTip(e) {
     if (e.target.classList.contains("pixel-box")) {
       const pixelId = e.target.id.replace("pixel-id-", "");
-      const { avatar, repo, level, name } = ContriList[pixelId];
+      const {
+        avatar,
+        repo,
+        level,
+        name
+      } = ContriList[pixelId];
 
       if (avatar) {
         e.target.style.backgroundImage = `url(${avatar})`;

@@ -40,15 +40,19 @@ $origin-y: 100%;
 $perspective: perspective(300px);
 $rotate_x: rotateX(12deg);
 //background
-$background_web: url('../assets/svgs/background-web.svg') no-repeat center;
+$background_pc: url('../assets/svgs/background-web.svg') no-repeat center;
 $background_mobile: url('../assets/svgs/background-mobile.svg') no-repeat center;
+
+// max-width
+$max_width: 1088px;
+$max_width_mobile: 328px;
 
 body {
     font-family: $font_0, $font_1, $font_2, $font_3;
     padding: 0;
     margin: 0;
     min-height: 100vh;
-    background: $background_web;
+    background: $background_pc;
     background-size: cover;
     * {
         box-sizing: $bs;
@@ -228,8 +232,10 @@ input {
 
 /* gaday */
 .gaday {
-    padding: 4rem 2.5rem;
+    // padding: 4rem 2.5rem;
+    padding: 4rem 0;
     margin: 0 auto;
+    max-width: $max_width;
     .title {
         font-size: 2rem;
         text-align: center;
@@ -259,7 +265,7 @@ input {
             margin-right: 5px;
         }
         .icon {
-            width: 30px;
+            width: 25px;
             height: 25px;
             margin-right: 10px;
             background: url('../assets/svgs/github.svg') no-repeat center;
@@ -292,17 +298,26 @@ input {
         display: flex;
         flex-flow: row wrap;
         -webkit-flex-flow: row wrap;
-        justify-content: start; // justify-content: space-between;
+        // justify-content: start;
+        justify-content: space-between;
         flex-direction: row;
     }
 
     .pixel-box {
-        margin: 1px; // flex-basis: 3%;
-        // height: auto;
-        width: $pixel;
-        height: $pixel;
+      position: relative;
+        margin: 1px;
+        flex-basis: 2.85%;
+        height: auto;
+        // width: $pixel;
+        // height: $pixel;
         fill: $color_gallery_approx !important;
         background-size: contain!important;
+
+        &:before {
+          content: "";
+          display: block;
+          padding-top: 100%;
+        }
     }
 }
 
@@ -332,7 +347,7 @@ input {
 }
 
 .owner {
-    display: table;
+    // display: table;
     width: 100%;
     height: 100%;
     padding: 0 2px;
@@ -340,7 +355,12 @@ input {
     background: $clole_tory_blue;
 
     span {
-        display: table-cell;
+        // display: table-cell;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
         vertical-align: middle;
         word-break: break-word;
         text-align: center;
@@ -419,13 +439,28 @@ input {
         background: $background_mobile;
         background-size: cover;
     }
-    .mosaic-wrapper .pixel-box {
-        width: $pixel_mobile;
-        height: $pixel_mobile;
+
+    .gaday {
+      padding: 2rem .5rem;
+      max-width: $max_width_mobile;
     }
+    .gad
+    ay .contributor-info .icon {
+      width: 1rem;
+      height: 1rem;
+      background-size: 1rem 1rem;
+    }
+
     .gaday .contributor-info {
         font-size: .6rem;
     }
+
+    .mosaic-wrapper .pixel-box {
+      flex-basis: 5%;
+        // width: $pixel_mobile;
+        // height: $pixel_mobile;
+    }
+
     .gaday .contributor-info .pixel-box,
     .footer .pixel-box {
         width: $pixel_mobile;
