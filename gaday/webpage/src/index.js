@@ -8,7 +8,7 @@ import "utils/html5tooltips.js";
 
 document.body.addEventListener("touchstart", function() {});
 
-const IS_VISITED_KEY = "visited_ga_day";
+const IS_VISITED_KEY = "visited-ga-day";
 const CONTRI_GITHUB_NAME = "gaday-github-name";
 
 const D = window.ContributorsData;
@@ -26,6 +26,11 @@ let contriGithubName = storage ? storage.getItem(CONTRI_GITHUB_NAME) : null;
     if (type === "authform") {
       document
         .getElementById("starwall")
+        .setAttribute("style", "display: none");
+
+      // hidden close button
+      document
+        .getElementById("btn-close")
         .setAttribute("style", "display: none");
     }
     document.getElementById(type).setAttribute("style", "display: block");
@@ -68,7 +73,9 @@ let contriGithubName = storage ? storage.getItem(CONTRI_GITHUB_NAME) : null;
 // end mask
 
 // transform data to structure for rendering
-const isMobile = false; // isPc Todo
+const isMobile = /AppleWebKit.*Mobile/i.test(navigator.userAgent) || /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent); // isPc Todo
+console.log("isMobile", isMobile)
+
 {
   Object.keys(D).forEach(k => {
     Object.keys(D[k].repos).forEach(r => {
@@ -123,9 +130,9 @@ function lightContriPixel(name) {
 
   const visitorContriList = ContriList.filter(i => i.name === name);
   if (visitorContriList.length) {
-    let infoHtml = `<span>Contributor @ </span><span id="name"> ${name} </span>`;
+    let infoHtml = `<span>Contributor @</span><span id="name">${name} </span>`;
     visitorContriList.forEach(i => {
-      infoHtml += `<span class="mosaic-rect level-${i.level}"></span>${i.repo}`;
+      infoHtml += `<span class="pixel-box level-${i.level}"></span>${i.repo}`;
       document.getElementById(
         `pixel-id-${i.idx}`
       ).innerHTML = `<span>${i.repo}</span>`;
@@ -133,14 +140,14 @@ function lightContriPixel(name) {
     $head.innerHTML = infoHtml;
   } else {
     // welcome bro - for newbie
-    $head.innerHTML = `welcome bro - for newbie`;
+    $head.innerHTML = `<span class="icon"></span> Join us NOW! Let’s Rock the Open Source World`;
   }
 }
 
 // add hover handler for pixel
 {
   const $dbox = document.getElementById("gaday-dbox");
-  const $pixels = $dbox.querySelectorAll(".mosaic-rect");
+  const $pixels = $dbox.querySelectorAll(".pixel-box");
   const $tooltip = new HTML5TooltipUIComponent();
   $tooltip.set({
     // animateFunction: "spin",
@@ -153,7 +160,7 @@ function lightContriPixel(name) {
   $tooltip.mount();
 
   function setAndShowToolTip(e) {
-    if (e.target.classList.contains("mosaic-rect")) {
+    if (e.target.classList.contains("pixel-box")) {
       const pixelId = e.target.id.replace("pixel-id-", "");
       const { avatar, repo, level, name } = ContriList[pixelId];
 
@@ -188,7 +195,7 @@ function lightContriPixel(name) {
     $pixels[i].addEventListener(
       "mouseleave",
       function(e) {
-        if (e.target.classList.contains("mosaic-rect")) {
+        if (e.target.classList.contains("pixel-box")) {
           hideTooltip(e);
         }
         // tooltip.show();

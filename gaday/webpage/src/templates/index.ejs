@@ -19,7 +19,7 @@
     <%= require('ejs-loader!./_browserhappy.ejs')() %>
         
         <div id="mask" class="modal-mask" style="display: none;">
-			    <a id="btn-close" class="icon-close" href="javascript:;" onclick="closeMask()">
+			    <a id="btn-close" class="btn-close" href="javascript:;" onclick="closeMask()">
 			      <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNjExLjk3OSA2MTEuOTc5IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA2MTEuOTc5IDYxMS45Nzk7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8cGF0aCBkPSJNMzU2Ljc4MSwzMDUuOTgyTDYwMS40NTMsNjEuMzExYzE0LjAzMy0xNC4wMzMsMTQuMDMzLTM2Ljc3MSwwLTUwLjc3NGMtMTQuMDA0LTE0LjAzMy0zNi43NDEtMTQuMDMzLTUwLjc3NCwwICAgTDMwNi4wMDcsMjU1LjIwOEw2MS4yNzcsMTAuNTM2Yy0xNC4wMDQtMTQuMDMzLTM2Ljc3MS0xNC4wMzMtNTAuNzc0LDBjLTE0LjAwNCwxNC4wMDQtMTQuMDA0LDM2Ljc0MiwwLDUwLjc3NGwyNDQuNzAxLDI0NC42NzIgICBMMTAuNTAzLDU1MC42ODRjLTE0LjAwNCwxNC4wMDQtMTQuMDA0LDM2Ljc3MSwwLDUwLjc3NGM3LjAxNiw3LjAxNywxNi4yMTYsMTAuNTEsMjUuMzg3LDEwLjUxYzkuMiwwLDE4LjM3MS0zLjQ5MywyNS4zODctMTAuNTEgICBsMjQ0LjcwMS0yNDQuNzAxbDI0NC42NzEsMjQ0LjcwMWM3LjAxNyw3LjAxNywxNi4yMTcsMTAuNTEsMjUuMzg4LDEwLjUxYzkuMTk5LDAsMTguMzk5LTMuNDkzLDI1LjM4Ny0xMC41MSAgIGMxNC4wMzMtMTQuMDMzLDE0LjAzMy0zNi43NzEsMC01MC43NzRMMzU2Ljc4MSwzMDUuOTgyeiIgZmlsbD0iI0ZGRkZGRiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
 			    </a>
         	
@@ -29,13 +29,19 @@
 
         <div class="gaday-page">
             <h1 class="title"> <%= `Thank you for making a difference  together with us`.toUpperCase() %></h1>
-            <div class="contributor-info">
-                <span>Contributor @ </span><span id="name"> XuechunL </span> <span class="pixel-box level-1"></span>
-            </div>
+            <div class="contributor-info"></div>
             <div id="mosaic" class="mosaic-wrapper"></div>
             <div class="footer">
-                <a href="#" class="link link-release"><i class="icon icon-tag"></i>GA Release Notes</a>
-                <div class="legend">Less <span class="pixel-box level-0"></span> <span class="pixel-box level-1"></span> <span class="pixel-box level-2"></span> <span class="pixel-box level-3"></span> <span class="pixel-box level-4"></span> </div>
+                <a href="#" class="link link-release"><img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgogIDxnPgogICAgPGc+CiAgICAgIDxwYXRoIGQ9Im0zMDMuNiw0NTEuNWwtMjUwLjUtMjUwLjggMjAuNC0xMjkuMyAxMjYuOC0xOC40IDI1MC42LDI1MS0xNDcuMywxNDcuNXptMTkwLjYtMTYybC0yNzIuMy0yNzIuNWMtNC41LTQuNi0xMC45LTYuNy0xNy4zLTUuOGwtMTUxLjgsMjJjLTguOCwxLjMtMTUuOCw4LjItMTcuMiwxN2wtMjQuNCwxNTQuNGMtMSw2LjQgMS4xLDEzIDUuNywxNy42bDI3Mi4yLDI3Mi42YzkuNCw5LjQgMjEuOCw3IDI4LjgsMGwxNzYuMi0xNzYuNGM3LjQtNy40IDEwLjgtMTguMSAwLjEtMjguOXoiIGZpbGw9IiNGRkZGRkYiLz4KICAgICAgPHBhdGggZD0ibTEzNi45LDExMi40Yy0xMi4yLDAtMjIuMSw5LjktMjIuMSwyMi4xIDAsMTIuMiA5LjksMjIuMSAyMi4xLDIyLjEgMTIuMiwwIDIyLjEtOS45IDIyLjEtMjIuMS0wLjEtMTIuMi05LjktMjIuMS0yMi4xLTIyLjF6IiBmaWxsPSIjRkZGRkZGIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K" />GA Release Notes</a>
+                <div class="legend">
+                	Less
+                	<span class="pixel-box level-0"></span>
+                	<span class="pixel-box level-1"></span>
+                	<span class="pixel-box level-2"></span>
+                	<span class="pixel-box level-3"></span>
+                	<span class="pixel-box level-4"></span>
+                	More
+                </div>
             </div>
         </div>
         <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script> -->
