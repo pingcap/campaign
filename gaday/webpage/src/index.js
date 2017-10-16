@@ -17,6 +17,17 @@ let ContriList = [];
 const storage = window.localStorage;
 let contriGithubName = storage ? storage.getItem(CONTRI_GITHUB_NAME) : null;
 
+// return to close autoform
+document.onkeydown = function(e) {
+  e = e || window.event;
+  switch (e.which || e.keyCode) {
+    case 13: //Your Code Here (13 is ascii code for 'ENTER')
+      handleAuthFormClick("contributor");
+      e.preventDefault();
+      break;
+  }
+};
+
 // mask for authform and starwall
 {
   let timer, currentModal;
@@ -43,20 +54,21 @@ let contriGithubName = storage ? storage.getItem(CONTRI_GITHUB_NAME) : null;
     document
       .getElementById("btn-close")
       .setAttribute("style", "display: block");
-    document
-      .getElementById("authform")
-      .setAttribute("style", "display: none");
+    document.getElementById("authform").setAttribute("style", "display: none");
     document
       .getElementById("starwall")
       .setAttribute("class", "mask-inner-starwall");
-    renderMask('starwall');
-  }
+    renderMask("starwall");
+
+    setTimeout(() => {}, 1000 * 16);
+  };
   window.closeMask = () => {
     document.getElementById("mask").setAttribute("style", "display: none");
     if (currentModal === "starwall") {
       storage && storage.setItem(IS_VISITED_KEY, true);
     }
-    if (currentModal === "authform") {}
+    if (currentModal === "authform") {
+    }
     timer && clearTimeout(timer);
   };
 
@@ -87,8 +99,10 @@ let contriGithubName = storage ? storage.getItem(CONTRI_GITHUB_NAME) : null;
 // end mask
 
 // transform data to structure for rendering
-const isMobile = /AppleWebKit.*Mobile/i.test(navigator.userAgent) || /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent); // isPc Todo
-console.log("isMobile", isMobile)
+const isMobile =
+  /AppleWebKit.*Mobile/i.test(navigator.userAgent) ||
+  /Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent); // isPc Todo
+console.log("isMobile", isMobile);
 
 {
   Object.keys(D).forEach(k => {
@@ -152,15 +166,15 @@ function lightContriPixel(name) {
       //   document.getElementById(
       //     `pixel-id-${i.idx}`
       //   ).innerHTML = `<span>${i.repo}<span>`;
-      document.getElementById(
-        `pixel-id-${i.idx}`
-      ).setAttribute('class', 'pixel-box owner');
+      document
+        .getElementById(`pixel-id-${i.idx}`)
+        .setAttribute("class", "pixel-box owner");
     });
 
     $head.innerHTML = infoHtml + `</div>`;
   } else {
     // welcome bro - for newbie
-    $head.innerHTML = `<span class="icon"></span> Join us NOW! Let’s Rock the Open Source World`;
+    $head.innerHTML = `<a href="https://github.com/pingcap/tidb" target="_blank"> <span class="icon"></span> Join us NOW! Let’s Rock the Open Source World</a>`;
   }
 }
 
@@ -181,18 +195,15 @@ function lightContriPixel(name) {
   function setAndShowToolTip(e) {
     if (e.target.classList.contains("pixel-box")) {
       const pixelId = e.target.id.replace("pixel-id-", "");
-      const {
-        avatar,
-        repo,
-        level,
-        name
-      } = ContriList[pixelId];
+      const { avatar, repo, level, name } = ContriList[pixelId];
 
       if (avatar) {
         e.target.style.backgroundImage = `url(${avatar})`;
       }
 
-      const copyright = repo ? `<span class="repo">${repo}</span> @${name}` : "Welcome to join us";
+      const copyright = repo
+        ? `<span class="repo">@${name}</span> ${repo}`
+        : "Welcome to join us";
 
       $tooltip.set({
         target: e.target,

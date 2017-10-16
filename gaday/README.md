@@ -36,6 +36,16 @@ https://docs.google.com/spreadsheets/d/1qH7SC9BFRKlnnW6GyxLluNf4wSNUlwQjkSOlgQ76
 - 生成主要项目的 contributors.json
 node contributors/index.js
 
+- 使用 webapi
+node webapi/index.js
+wget locahost:8080/api/contributors.json
+存放 json 到 webpage 目录下
+
+- 生成静态页
+cd webpage
+npm run prod:webpack
+
+
 - 生成邀请函图片：
 nvm use v8.5
 node invitation-letter/generate.js ALL
