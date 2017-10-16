@@ -265,7 +265,7 @@ input {
         .pixel-box {
             width: $pixel;
             height: $pixel;
-            margin-left: 15px;
+            margin-left: 5px;
             margin-right: 5px;
         }
         .icon {
@@ -426,7 +426,7 @@ input {
     .pixel-box {
         width: $pixel;
         height: $pixel;
-        margin: 0 5px;
+        margin: 0 1px;
     }
 }
 
@@ -464,7 +464,6 @@ input {
     .footer .pixel-box {
         width: $pixel_mobile;
         height: $pixel_mobile;
-        margin: 0 5px;
     }
 
     .gaday .repos {
