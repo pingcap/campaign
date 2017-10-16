@@ -1,7 +1,7 @@
 {
-  "name": "frontend-boilerplate",
+  "name": "PingCAP_GADAY",
   "version": "2.1.0",
-  "description": "An ES201X boilerplate with common frontend tasks using webpack 3 as build system.",
+  "description": "TiDB GA  Release!  Thanks Contributors",
   "keywords": [
     "webpack",
     "webpack3",
@@ -35,7 +35,7 @@
     "prod": "run-s favicons prod:* && run-p sitemap robotstxt"
   },
   "config": {
-    "title": "Frontend Boilerplate",
+    "title": "TiDB GA  Release!  Thanks Contributors",
     "handle": "@dmnsgn",
     "analyticsUA": "UA-XXXXX-X"
   },

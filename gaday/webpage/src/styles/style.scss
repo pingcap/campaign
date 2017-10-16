@@ -50,6 +50,11 @@ $min_width: 818px;
 $max_width_mobile: 328px;
 $min_width_mobile: 320px;
 
+.normal-link {
+  text-decoration: none!important;
+  color: inherit!important;
+}
+
 body {
     font-family: $font_0, $font_1, $font_2, $font_3;
     padding: 0;
@@ -274,6 +279,9 @@ input {
             margin-right: 10px;
             background: url('../assets/svgs/github.svg') no-repeat center;
             background-size: 24px 24px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 5px;
         }
     }
 }

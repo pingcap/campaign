@@ -8,8 +8,8 @@
     <title>
         <%= htmlWebpackPlugin.options.title %>
     </title>
-    <!-- <%= require('ejs-loader!./_meta.ejs')({ data: htmlWebpackPlugin.options }) %> -->
-    <!-- <%= require('ejs-loader!./_favicons.ejs')() %> -->
+    <%= require('ejs-loader!./_meta.ejs')({ data: htmlWebpackPlugin.options }) %>
+    <%= require('ejs-loader!./_favicons.ejs')() %>
     <%= require('ejs-loader!./pre-load.ejs')() %>
 </head>
 
@@ -24,19 +24,19 @@
     };
   </script>
   <%= require('ejs-loader!./_browserhappy.ejs')() %>
-        
+
   <div id="load" class="pre-load">loading...</div>
 
   <div id="page" style="display: none;">
       <div id="mask" class="modal-mask" style="display: none;">
-        <button type="button" id="btn-close" class="btn-close" onclick="closeMask()"><i class="icon"></i></button>  
+        <button type="button" id="btn-close" class="btn-close" onclick="closeMask()"><i class="icon"></i></button>
         <%= require('ejs-loader!./starwall.ejs')() %>
         <%= require('ejs-loader!./authform.ejs')() %>
       </div>
 
       <%= require('ejs-loader!./gaday.ejs')() %>
   </div>
-  
+
   <!-- <%= require('ejs-loader!./_version.ejs')({ data: htmlWebpackPlugin.options }) %> -->
   <%= require('ejs-loader!./_analytics.ejs')({ data: htmlWebpackPlugin.options }) %>
 </body>

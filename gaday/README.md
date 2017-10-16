@@ -51,6 +51,12 @@ nvm use v8.5
 node invitation-letter/generate.js ALL
 node invitation-letter/generate.js siva
 
+- 更新 CDN
+cd webpage
+下载 https://developer.qiniu.com/kodo/tools/1302/qshell
+qshell account ak sk
+qshell qupload qiniu.config
+
 
 
 ## GADay

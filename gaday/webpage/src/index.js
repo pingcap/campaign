@@ -60,15 +60,24 @@ document.onkeydown = function(e) {
       .setAttribute("class", "mask-inner-starwall");
     renderMask("starwall");
 
-    setTimeout(() => {}, 1000 * 16);
+    setTimeout(() => {
+      document
+        .getElementById("starwall")
+        .setAttribute("class", "mask-inner-starwall animated fadeOut");
+      setTimeout(() => {
+        closeMask();
+      }, 1000);
+    }, 1000 * 16);
   };
   window.closeMask = () => {
     document.getElementById("mask").setAttribute("style", "display: none");
     if (currentModal === "starwall") {
       storage && storage.setItem(IS_VISITED_KEY, true);
+      if (!contriGithubName) {
+        renderMask("authform");
+      }
     }
-    if (currentModal === "authform") {
-    }
+    // if (currentModal === "authform") {
     timer && clearTimeout(timer);
   };
 
@@ -156,7 +165,9 @@ console.log("isMobile", isMobile);
 function lightContriPixel(name) {
   const $head = document.querySelector(".contributor-info");
 
-  const visitorContriList = ContriList.filter(i => i.name === name);
+  const visitorContriList = ContriList.filter(i => {
+    return i.name.toLowerCase() === name.toLowerCase();
+  });
   if (visitorContriList.length) {
     let infoHtml = `<div>Contributor @<span id="name">${name} </span></div><div class="repos">`;
     visitorContriList.forEach(i => {
@@ -174,7 +185,7 @@ function lightContriPixel(name) {
     $head.innerHTML = infoHtml + `</div>`;
   } else {
     // welcome bro - for newbie
-    $head.innerHTML = `<a href="https://github.com/pingcap/tidb" target="_blank"> <span class="icon"></span> Join us NOW! Let’s Rock the Open Source World</a>`;
+    $head.innerHTML = `<a class="normal-link" href="https://github.com/pingcap/tidb" target="_blank"> <span class="icon"></span> Join us NOW! Let’s Rock the Open Source World</a>`;
   }
 }
 
