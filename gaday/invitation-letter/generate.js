@@ -26,8 +26,9 @@ async function generate(name) {
 }
 
 async function loop() {
-  const contributorsData = JSON.parse(fs.readFileSync(`${__dirname}/../contributors.json`, 'utf8'))
-  const listActions = Object.keys(contributorsData).slice(0, 200) //.map(i => (i => generate(i))(i))
+  const contributorsData = JSON.parse(fs.readFileSync(`${__dirname}/../webpage/contributors.json`, 'utf8'))
+  const listActions = Object.keys(contributorsData).filter((i)=> !contributorsData[i].repos.family) // Family and not
+  console.log(listActions.length)
 
   for (i of listActions) {
     await generate(i)

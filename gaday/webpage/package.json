@@ -35,7 +35,7 @@
     "prod": "run-s favicons prod:* && run-p sitemap robotstxt"
   },
   "config": {
-    "title": "TiDB GA  Release!  Thanks Contributors",
+    "title": "TiDB GA  Release! You are invited to light up your own Contributor Card.",
     "handle": "@dmnsgn",
     "analyticsUA": "UA-XXXXX-X"
   },
