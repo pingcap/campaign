@@ -470,6 +470,11 @@ input {
         margin-left: -5px;
     }
 
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
     .footer-right {
         display: flex;
         flex-direction: column;
