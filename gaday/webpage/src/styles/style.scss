@@ -265,6 +265,8 @@ input {
         }
         .repos {
             display: flex;
+            flex-flow: row wrap;
+            -webkit-flex-flow: row wrap;
             align-items: center;
         }
         .pixel-box {
