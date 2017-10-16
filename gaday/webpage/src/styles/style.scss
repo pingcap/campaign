@@ -98,8 +98,8 @@ button {
 
     .btn-close {
         position: absolute;
-        top: 25px;
-        right: 25px;
+        top: 15px;
+        right: 15px;
         background: none;
         border: none;
         font-size: 2rem;
@@ -128,21 +128,21 @@ button {
 
     .target {
         position: absolute;
-        top: -2500px;
+        top: calc(-100vh);
         bottom: 0;
         left: 0;
         right: 0;
         overflow: hidden;
 
         .content {
-            padding-top: 3210px;
+            padding-top: calc(100vh*2);
             padding-left: 0;
             font-size: 1.6rem;
             line-height: 1.2;
             text-align: center;
             font-family: $font_3;
             color: $color_light_blue;
-            animation: autoscroll 40s linear;
+            animation: autoscroll 16s linear;
             li {
                 display: block;
                 list-style: none;
@@ -155,7 +155,7 @@ button {
 
 @keyframes autoscroll {
     to {
-        margin-top: -3000px;
+        margin-top: calc(-100vh*2);
     }
 }
 

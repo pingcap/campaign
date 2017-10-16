@@ -67,7 +67,7 @@ document.onkeydown = function(e) {
       setTimeout(() => {
         closeMask();
       }, 1000);
-    }, 1000 * 16);
+    }, 1000 * 15);
   };
   window.closeMask = () => {
     document.getElementById("mask").setAttribute("style", "display: none");
