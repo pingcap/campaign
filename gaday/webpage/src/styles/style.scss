@@ -269,6 +269,10 @@ input {
             -webkit-flex-flow: row wrap;
             align-items: center;
         }
+        .box-wrapper {
+            display: flex;
+            align-items: center;
+        }
         .pixel-box {
             width: $pixel;
             height: $pixel;

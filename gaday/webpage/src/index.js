@@ -171,7 +171,7 @@ function lightContriPixel(name) {
   if (visitorContriList.length) {
     let infoHtml = `<div>Contributor @<span id="name">${name} </span></div><div class="repos">`;
     visitorContriList.forEach(i => {
-      infoHtml += `<span class="pixel-box level-${i.level}"></span>${i.repo}`;
+      infoHtml += `<span class="box-wrapper"><span class="pixel-box level-${i.level}"></span>${i.repo}</span>`;
       // FIXME: too small to show
       // if (!isMobile)
       //   document.getElementById(
