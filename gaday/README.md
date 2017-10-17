@@ -44,14 +44,22 @@ wget locahost:8080/api/contributors.json
 - 生成静态页
 cd webpage
 npm run prod:webpack
+npm run favicons
 
+- 运行页面
+cd webpage
+npm run dev
 
 - 生成邀请函图片：
 nvm use v8.5
 node invitation-letter/generate.js ALL
 node invitation-letter/generate.js siva
 
-- 更新 CDN
+- 生成邮件列表
+node postmail/index.js
+
+- 更新 CDN（not work)
+进入到gaday bucket @qiniu 中删除index.html 然后上传新的html，css, js 等文件
 cd webpage
 下载 https://developer.qiniu.com/kodo/tools/1302/qshell
 qshell account ak sk
